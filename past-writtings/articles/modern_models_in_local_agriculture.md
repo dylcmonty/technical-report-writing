@@ -14,7 +14,7 @@ For each model, the emphasis is on:
 ### Cooperative models
 
 #### Oberlin Food Hub
-**Model type:** community food hub / local aggregation + distribution  
+**Model type:** community food hub / local aggregation + distribution
 **How it works (logistics):**
 - Aggregates products from multiple local producers into a consolidated supply stream.
 - Builds **repeatable outlets** (e.g., institutions, restaurants, community channels) by reducing transaction costs for both sides.
@@ -30,7 +30,7 @@ For each model, the emphasis is on:
 ---
 
 #### Green Field Farms Cooperative (GFF)
-**Model type:** farmer-owned cooperative (Amish/Mennonite rooted) + branded market channel + soil amendments  
+**Model type:** farmer-owned cooperative (Amish/Mennonite rooted) + branded market channel + soil amendments
 **How it works (logistics):**
 - Cooperative structure: member farms remain independent but coordinate through shared standards and pooled market access.
 - Product mix spans **fresh foods** plus **soil amendments**, which diversifies revenue streams and helps stabilize cooperative cash flow.
@@ -40,8 +40,8 @@ For each model, the emphasis is on:
 - “Value capture” is retained by producers through a shared brand and coordinated distribution rather than surrendering margin to a middleman.
 
 **Links:**
-- Products / cooperative offerings: https://gffarms.com/products/  
-- Certification details: https://gffarms.com/about-us/certifications/  
+- Products / cooperative offerings: https://gffarms.com/products/
+- Certification details: https://gffarms.com/about-us/certifications/
 - Background reporting: https://www.dairyfoods.com/articles/95390-amish-run-green-field-farms-combines-old-world-methods-with-innovation
 
 ---
@@ -49,7 +49,7 @@ For each model, the emphasis is on:
 ### Regenerative retail
 
 #### Purplebrown Farm Store
-**Model type:** local-first retail grocery + producer marketplace (year-round outlet)  
+**Model type:** local-first retail grocery + producer marketplace (year-round outlet)
 **How it works (logistics):**
 - Operates as a **full grocery-format storefront** that intentionally curates local and organic products.
 - Converts “seasonal” producer sales into a **stable year-round shelf** (retail outlet), which can reduce the need for producers to be physically present at every sale.
@@ -59,14 +59,14 @@ For each model, the emphasis is on:
 - Increases buyer accessibility to local food by packaging it into a familiar, routine shopping format.
 
 **Links:**
-- Main site: https://www.purplebrownfarmstore.com/  
-- About: https://www.purplebrownfarmstore.com/about  
+- Main site: https://www.purplebrownfarmstore.com/
+- About: https://www.purplebrownfarmstore.com/about
 - Peninsula directory entry: https://explorepeninsula.org/member-directory/purplebrown-farm-store/
 
 ---
 
 #### Harbor Gardens (Ashtabula)
-**Model type:** local market + demonstration kitchen (education + vendor shelf space)  
+**Model type:** local market + demonstration kitchen (education + vendor shelf space)
 **How it works (logistics):**
 - Functions like a “general store” that carries products from many local vendors (market shelf access).
 - Adds a demonstration kitchen / education layer: cooking, canning, fermentation, etc.
@@ -76,8 +76,8 @@ For each model, the emphasis is on:
 - Education increases *effective demand* by making unfamiliar local ingredients more usable.
 
 **Links:**
-- About: https://harborgardens.org/about/  
-- Store/vendor model: https://harborgardens.org/the-general-store/  
+- About: https://harborgardens.org/about/
+- Store/vendor model: https://harborgardens.org/the-general-store/
 - Public coverage: https://www.ideastream.org/arts-culture/2023-11-10/harbor-gardens-in-ashtabula-connects-community-to-local-food
 
 ---
@@ -85,7 +85,7 @@ For each model, the emphasis is on:
 ### Amish network
 
 #### Stutzman Farms (Fryburg / Mount Hope area)
-**Model type:** on-farm milling + certified organic grain products + distribution via foodshed channel  
+**Model type:** on-farm milling + certified organic grain products + distribution via foodshed channel
 **How it works (logistics):**
 - Produces milled grain products (flours, granolas, etc.) and ships through a broader distribution channel (Yellowbird Foodshed).
 
@@ -99,7 +99,7 @@ For each model, the emphasis is on:
 ---
 
 #### Yellowbird Foodshed
-**Model type:** aggregated online “regional grocery” + delivery/pickup network  
+**Model type:** aggregated online “regional grocery” + delivery/pickup network
 **How it works (logistics):**
 - Customers build orders; orders close on a weekly cutoff; products are aggregated and distributed through many pickup sites or home delivery.
 - Works with many farms and producers, effectively acting as a **coordinated ordering + distribution layer**.
@@ -109,9 +109,9 @@ For each model, the emphasis is on:
 - Pickup + delivery logistics reduce “last-mile” challenges for both producers and consumers.
 
 **Links:**
-- Main: https://yellowbirdfs.com/  
-- How it works: https://yellowbirdfs.com/how-it-works  
-- Profile/coverage: https://news.oeffa.org/2024/12/14/yellowbird-foodshed/  
+- Main: https://yellowbirdfs.com/
+- How it works: https://yellowbirdfs.com/how-it-works
+- Profile/coverage: https://news.oeffa.org/2024/12/14/yellowbird-foodshed/
 - Background coverage: https://spectrumnews1.com/news/2020/01/08/yellowbird-foodshed-connects-local-farmers-with-consumers.html
 
 ---
@@ -121,7 +121,7 @@ For each model, the emphasis is on:
 ### Distribution
 
 #### International Specialty Produce (ISP)
-**Model type:** wholesale distributor + warehousing + refrigerated logistics  
+**Model type:** wholesale distributor + warehousing + refrigerated logistics
 **How it works (logistics):**
 - Supplies wholesale produce and offers warehousing/logistics support, including refrigerated freight handling and reorganization of loads.
 
@@ -130,8 +130,8 @@ For each model, the emphasis is on:
 - Useful as a reference model for what “reliable supply infrastructure” looks like in practice.
 
 **Links:**
-- Main: https://www.isp3800.com/  
-- Logistics: https://www.isp3800.com/logistics/  
+- Main: https://www.isp3800.com/
+- Logistics: https://www.isp3800.com/logistics/
 - Warehousing: https://www.isp3800.com/warehouse/
 
 ---
@@ -139,7 +139,7 @@ For each model, the emphasis is on:
 ### Farming for wholesale (value-added processing)
 
 #### Keller Meats (whole-animal / “zero-waste” orientation)
-**Model type:** local processor + retail + custom processing (whole-animal utilization)  
+**Model type:** local processor + retail + custom processing (whole-animal utilization)
 **How it works (logistics):**
 - Emphasizes whole-animal processing, which pushes revenue capture across more of the carcass (vs. only premium cuts).
 - Also supports custom processing, enabling local producers to access inspected processing capacity.
@@ -149,7 +149,7 @@ For each model, the emphasis is on:
 - Local processing capacity reduces dependence on distant processors (time/cost/risk).
 
 **Links:**
-- Main: https://kellermeats.com/  
+- Main: https://kellermeats.com/
 - Custom processing: https://kellermeats.com/custom-processing
 
 ---
@@ -157,7 +157,7 @@ For each model, the emphasis is on:
 ### Staple crop revival
 
 #### Shagbark Seed & Mill
-**Model type:** regional staple-grain processing + market development (schools/restaurants/home kitchens)  
+**Model type:** regional staple-grain processing + market development (schools/restaurants/home kitchens)
 **How it works (logistics):**
 - Processes Ohio-grown grains/beans into kitchen-ready products (flours, beans, mixes).
 - Bridges farms to institutional and household demand by making staples “buyable” and “cookable.”
@@ -167,7 +167,7 @@ For each model, the emphasis is on:
 - Creates local supply chains for foods that typically depend on national commodity logistics.
 
 **Links:**
-- Main: https://shagbarkmill.com/  
+- Main: https://shagbarkmill.com/
 - Profile (OEFFA listing): https://www.oeffa.org/userprofile.php?geg=1066
 
 ---
@@ -177,7 +177,7 @@ For each model, the emphasis is on:
 ### Shared-use kitchen
 
 #### ACEnet & Nelsonville Food & Farm Enterprise Center (FFEC)
-**Model type:** shared-use processing + cool storage + food hub infrastructure (incubator + distribution)  
+**Model type:** shared-use processing + cool storage + food hub infrastructure (incubator + distribution)
 **How it works (logistics):**
 - Provides licensed/inspected facilities for produce processing and separate local meat processing.
 - Acts as enabling infrastructure: small operators can rent capacity instead of funding their own plant.
@@ -187,13 +187,13 @@ For each model, the emphasis is on:
 - Adds local processing capacity, which reduces the geographic disadvantage of rural producers.
 
 **Links:**
-- Facility overview: https://acenetworks.org/facilities/nelsonville-food-farm-enterprise-center/  
+- Facility overview: https://acenetworks.org/facilities/nelsonville-food-farm-enterprise-center/
 - Additional notes: https://www.wealthworks.org/success-stories/southeast-ohio-food/
 
 ---
 
 #### Aggregate community kitchen + grocery hybrid model — Local Roots (Wooster)
-**Model type:** year-round market where producers do not have to be on-site  
+**Model type:** year-round market where producers do not have to be on-site
 **How it works (logistics):**
 - Provides a centralized market outlet; producers can sell without staffing a stall daily.
 - Multi-producer retail format (200+ Ohio businesses indicated in public materials).
@@ -203,7 +203,7 @@ For each model, the emphasis is on:
 - Creates stable shelf/channel access without forcing each farm to build consumer-facing operations.
 
 **Links:**
-- About (explicit business model description): https://www.localrootswooster.com/about  
+- About (explicit business model description): https://www.localrootswooster.com/about
 - Main: https://www.localrootswooster.com/
 
 ---
@@ -211,7 +211,7 @@ For each model, the emphasis is on:
 ## Governance and fundraising infrastructure models
 
 ### Fiscal sponsorship programs (for market access, food equity, and shared infrastructure projects)
-**Model type:** nonprofit governance + charitable fundraising infrastructure (sponsor/project model)  
+**Model type:** nonprofit governance + charitable fundraising infrastructure (sponsor/project model)
 **How it works (operations):**
 - A 501(c)(3) sponsor accepts tax-deductible donations and manages funds for mission-aligned projects.
 - Project activities can remain distributed, while financial controls, receipting, and compliance are centralized under the sponsor.
@@ -230,7 +230,7 @@ For each model, the emphasis is on:
 ### Aggregated CSA + grocery hybrid model
 
 #### Fresh Fork Market
-**Model type:** aggregated weekly subscription share (“CSA-like”) across many farms with pickup sites  
+**Model type:** aggregated weekly subscription share (“CSA-like”) across many farms with pickup sites
 **How it works (logistics):**
 - Combines products from multiple farms into a unified weekly distribution.
 - Uses pickup locations (and sometimes partner retailers) to reduce last-mile complexity.
@@ -245,7 +245,7 @@ For each model, the emphasis is on:
 ---
 
 #### Ohio City Provisions
-**Model type:** local-first grocery/butcher retail node + community pickup point (often paired with aggregation networks)  
+**Model type:** local-first grocery/butcher retail node + community pickup point (often paired with aggregation networks)
 **How it works (logistics):**
 - Provides a dedicated retail interface for local products; can function as a distribution node for larger aggregators.
 
@@ -260,7 +260,7 @@ For each model, the emphasis is on:
 ## Waste-to-value agriculture
 
 #### Rust Belt Riders
-**Model type:** food-waste composting → soil products + (in some cases) cooperative ownership structure  
+**Model type:** food-waste composting → soil products + (in some cases) cooperative ownership structure
 **How it works (logistics):**
 - Converts food scraps into compost/soil amendments; often built on route-based collection and centralized processing.
 - Downstream sales to farms/gardeners/retailers create an economic loop from waste to agricultural inputs.
@@ -275,7 +275,7 @@ For each model, the emphasis is on:
 ---
 
 #### Rosby Companies
-**Model type:** resource recycling (construction debris + organics) → soils/mulches/compost  
+**Model type:** resource recycling (construction debris + organics) → soils/mulches/compost
 **How it works (logistics):**
 - Reclaims materials from waste streams and produces soil/compost outputs.
 
@@ -291,7 +291,7 @@ For each model, the emphasis is on:
 ## Regional grocery chains
 
 ### The Farmer’s Rail (pasture-to-plate model)
-**Model type:** farmer-owned retail/restaurant channel born from a farm enterprise  
+**Model type:** farmer-owned retail/restaurant channel born from a farm enterprise
 **How it works (logistics):**
 - Vertically integrates: farm production → branded retail butcher shop/restaurant.
 - Captures retail margin and controls customer relationship.
@@ -301,13 +301,13 @@ For each model, the emphasis is on:
 - Community-based retail creates a stable outlet for pasture-raised production.
 
 **Links:**
-- Main: https://www.thefarmersrail.com/  
+- Main: https://www.thefarmersrail.com/
 - Farm story: https://www.thefarmersrail.com/our-farm
 
 ---
 
 ### Heinen’s (retail partnerships)
-**Model type:** regional chain with local sourcing partnerships  
+**Model type:** regional chain with local sourcing partnerships
 **How it works (logistics):**
 - Uses retail shelf-space and procurement relationships to move local products at scale (when aligned with chain purchasing constraints).
 
@@ -321,7 +321,7 @@ For each model, the emphasis is on:
 ---
 
 ### Buehler’s Fresh Foods (auction-backed sourcing)
-**Model type:** regional grocer using produce auctions as a procurement channel  
+**Model type:** regional grocer using produce auctions as a procurement channel
 **How it works (logistics):**
 - Buys large quantities through produce auctions, especially in Amish/producer-dense regions.
 - Auctions function as supply aggregation and price discovery.
@@ -331,15 +331,15 @@ For each model, the emphasis is on:
 - Risk: price volatility can shift bargaining power; however, auctions reduce the coordination cost of matching buyers and many small producers.
 
 **Links:**
-- Buehler’s background note (Mt. Hope auction purchasing): https://retail-merchandiser.com/news/buehlers-fresh-foods/  
-- Mt. Hope Farmer’s Produce Auction: https://mthopeauction.com/farmers-produce-auction/  
+- Buehler’s background note (Mt. Hope auction purchasing): https://retail-merchandiser.com/news/buehlers-fresh-foods/
+- Mt. Hope Farmer’s Produce Auction: https://mthopeauction.com/farmers-produce-auction/
 - County Line Produce Auction: https://www.countylineproduceauction.com/
 
 ---
 
-## Countryside Program (Many models and approaches as one; a large experiment)
+## Countryside Program (multi-farm network model)
 
-**Model type:** protected-landscape farming program + long-term leases + market + education  
+**Model type:** protected-landscape farming program + long-term leases + market + education
 **How it works (logistics):**
 - Long-term lease structures inside a national park context, paired with stewardship guidelines.
 - Uses markets/programming/education as “connective tissue” between farms and metro consumers.
@@ -349,16 +349,6 @@ For each model, the emphasis is on:
 - Programmatic market channels (and public interface) can stabilize demand and farm visibility.
 
 **Links:**
-- Countryside Initiative (NPS): https://www.nps.gov/cuva/learn/historyculture/countryside.htm  
-- Farming in a National Park (NPS): https://www.nps.gov/cuva/learn/historyculture/farming-in-a-national-park.htm  
+- Countryside Initiative (NPS): https://www.nps.gov/cuva/learn/historyculture/countryside.htm
+- Farming in a National Park (NPS): https://www.nps.gov/cuva/learn/historyculture/farming-in-a-national-park.htm
 - Market interface: https://www.cuyahogavalleyfarmersmarket.org/
-
----
-
-## Notes to apply to your SBIR framing (non-narrative)
-
-When you later translate this into proposal language, the “technical writing” pivot is:
-
-- **Define the coordination primitive** you are building (what is the data object, who produces it, who consumes it, what frequency, what verification).
-- **Specify what “equity” means operationally** (reduced income volatility, lower overhead, reduced spoilage, reduced time-to-sale, reduced inventory mismatch).
-- **Pick 1–2 measurable comparisons** against these models (e.g., “reduced planning uncertainty compared to auction-only procurement”, “reduced admin burden compared to direct-only CSA coordination”).
