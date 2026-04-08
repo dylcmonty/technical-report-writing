@@ -1,0 +1,15 @@
+Excited to make my triumphant return!
+
+Module 3: Definitions (Chapter 11), Descriptions (Chapter 12), and Summaries and Abstracts (Chapter 14) are essential in many types of technical and business documents. They are used in all professional communications, both internal and external operational.
+
+People rely on definitions to concisely tell them what something is, both concrete and abstract.  There are several kinds of definitions, parenthetical, sentence, and expanded. A parenthetical definition is a synonym for a term that clarifies it.  Provide the word, then the clarifying phrase in parentheses after the word.  A sentence definition states the term and then places it in a broader category or class, then provides its features in a sentence or so. An expanded definition is the most comprehensive and detailed method of defining a term.  It is a more complex and presented in a short paragraph or several pages.  One must also consider the legal, safety and societal implications for highly technical definitions, and precise, accurate and complete information must be provided.
+
+The primary topic of Chapter 12 is Description.  Definition and Description go hand-in-hand, and often both are used in a technical document.  As with Definition, audience and purpose require careful consideration.  Description answers such questions as What is it? What does it do? What does it look like?  There are both subjective and objective descriptions that can be arranged either spatially or by functionality.  Furthermore, objective Descriptions provide details and information that is visual, factual, and non-emotional. This type of descriptive writing is precise and informative, such as a product or process description.
+
+Summaries and abstracts provide a brief, concise account of an article, report, manual or other workplace document, in an effort to condense information while retaining the meaning of the original.  As with Definition, there are several types: closing summaries, informative abstracts, descriptive abstracts, and executive summaries.    Chapter 14 includes examples of all types and the occasions and purposes for writing them.
+
+Read Chapter 11: Definitions
+
+Read Chapter 12: Descriptions
+
+Read Chapter 14: Summaries and Abstracts   
