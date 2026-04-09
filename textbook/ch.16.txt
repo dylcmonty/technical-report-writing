@@ -1,0 +1,280 @@
+Chapter 16 Formal Reports
+A photo shows a man wearing a tie looking into a small stack of papers with graphs and charts in them using the pen in his hand.
+Learning Objectives
+
+    16.1 Determine the audience and purpose of a formal report.
+
+    16.2 Identify the characteristics of an effective formal report.
+
+    16.3 Include all the essential parts in a formal report.
+
+Chapter Outline
+
+    Audience and Purpose of Formal Reports
+
+    Elements of Effective Formal Reports
+
+    Parts of Formal Reports
+
+        Strategies for Formal Reports
+
+        Checklist for Formal Reports
+
+    Applications
+
+Much like the shorter analytical reports (feasibility and recommendation reports) discussed in Chapter 15, long, formal reports are analytical reports that often lead to recommendations. The formal report format replaces the informal memo format when the topic requires lengthy discussion. Formal reports generally include a title page, a table of contents, a system of headings, a list of references or works cited, and other front-matter and end-matter supplements. An essential component of workplace problem solving, formal reports are designed to answer these questions:
+
+    Based on the information gathered about this issue, what do we know?
+
+    What conclusions can we draw?
+
+    What should we do or not do?
+
+For instance, imagine you work on a team of alternative energy experts (engineers, policy analysts, technical writers, lawyers), and the state department of energy has asked your organization for a report on the feasibility of producing wind energy in your state. First, you will have to learn everything you can about the nature of the energy situation in your state at this time. Then you will need to compare the advantages and disadvantages of various options based on the criteria you are using to assess feasibility, such as cost-effectiveness, time required versus time available to begin wind energy production, potential risks and benefits to the public and the environment, and so on. As you consider all the factors, you might find that the least expensive option might also pose the greatest environmental risk; on the other hand, the most environmentally friendly option might be too expensive.
+
+This type of situation requires critical thinking and research. Aside from the technical knowledge about wind energy that your team already has, you may need additional research about the state or about the relationship of wind energy to other sectors of the economy (for example, agricultural). Sources for this research may be available using secondary research (online or through the library), or you may need to answer these questions through primary research (surveys and interviews). For more information on how to conduct research, review Chapter 2.
+
+Audience and Purpose of Formal Reports
+
+    16.1 Determine the audience and purpose of a formal report.
+
+Because of their major impact on the decision-making process, formal reports are almost always written for an audience of decision makers: for example, government officials, corporate managers. You need to know whether the report will be read primarily by an individual, a team, or a series of individuals with differing roles in the company.
+
+To determine the purpose of the report, consider what question or questions it will ultimately answer. Also, consider why this particular topic is timely and useful to the intended audience. Use the Audience and Purpose Profile Sheet on page 42 to begin mapping out your audience and purpose for the report.
+
+Next, determine which of the following three analytical categories best fits your purpose: the comparative analysis (“Which is better, X or Y?”), the causal analysis (“Why does X occur?”), or the feasibility analysis (“Is X a good idea?”). Note that not all formal reports fall neatly into one of these categories. Some reports blend two or all three. For instance, some reports will present a feasibility analysis but will also offer a great deal of comparative information.
+Comparative Analysis
+
+Comparative analysis rates similar items on the basis of specific criteria. For example, you may need to answer a question such as “Which type of security procedure—firewall or encryption—should we install in our company’s computer system?”
+
+For a comparative analysis, base the comparison on clear and definite criteria: costs, uses, benefits/drawbacks, appearance, results. Identify your specific criteria, and then rank these in order of importance. Give each item balanced treatment. Support and clarify the comparison or contrast through credible examples. Use research, if necessary, for examples that readers can visualize.
+
+In a report titled “A Comparison of Different Methods for Uploading Digital Photographs,” the abstract of which is shown in Figure 16.1, Christina Romano compares three different upload methods. Romano, a freelance photographer, was asked to write this report for a local photography club. Notice how the abstract makes clear the comparative approach of the report.
+Figure 16.1
+
+Abstract for a formal report that takes a primarily comparative approach
+A figure shows an abstract for a formal report that takes a primarily comparative approach.
+Figure 16.1 Full Alternative Text
+Causal Analysis
+
+Causal analysis explains the causes or the effects of an event, a problem, or a decision. For example, medical researchers may need to explain why so many apparently healthy people have sudden heart attacks. Or you might need to anticipate the possible effects of a proposed corporate merger on employee morale.
+
+For a causal analysis, be sure the cause fits the effect. Faulty causal reasoning is extremely common, especially when people ignore other possible causes or when they confuse mere coincidence with causation. Make the links between effect and cause clear. Identify the immediate cause (the one most closely related to the effect) as well as the distant cause(s) (the ones that precede the immediate cause). For example, the immediate cause of an airplane crash might be a fuel-tank explosion, caused by a short circuit in frayed wiring. This wiring defect, it turns out, was caused by faulty design or poor quality control by the manufacturer. Discussing only the immediate cause merely scratches the surface of the problem.
+
+The sample formal report by Crystal Cunningham, “Effects of Periodontal Disease on Preterm Low Birth Weight Babies,” provided later in this chapter (see pages 292-307), takes a primarily causal approach. The writer examines the research literature on the question of whether periodontal disease in mothers might cause low birth weight in babies.
+Feasibility Analysis
+
+A feasibility analysis assesses the practicality of an idea or plan. For example, if your company needs to know whether increased business will justify the cost of maintaining a corporate blog for customers, you would do some research and describe your findings in a formal feasibility report. In some cases, you (the writer) can’t actually determine the feasibility; all you can do is provide enough information so that the readers of your report can make the final decision.
+
+For a feasibility analysis, consider the strength of supporting reasons. Choose the best reasons for supporting the action or decision being considered—based on your collected evidence. Also consider the strength of opposing reasons. Remember that people usually see only what they want to see. Avoid the temptation to overlook or downplay opposing reasons, especially for an action or decision you have been advocating. Consider alternate points of view and examine and evaluate all the evidence. After weighing the pros and cons, recommend a realistic and well-reasoned course of action.
+
+In their report “A Study on the Feasibility of Biodiesel Production in Georgia” (the conclusion section is shown in Figure 16.2), Professor George A. Shumaker and his coauthors provide decision makers with the information needed to decide on a vital component of one state’s energy policy. Their conclusion is a good example of how a feasibility study can take into account criteria that would have to be met (in this case, cost-effectiveness) for a proposed plan to be feasible.
+Figure 16.2
+
+Conclusion of a formal report that takes a feasibility approach
+A figure shows a conclusion of a formal report that takes a feasibility approach.
+
+Source: From “A Study on the Feasibility of Biodiesel Production in Georgia” by Professor George A. Shumaker et al. Copyright © 2003 by The University of Georgia’s Center on Agribusiness & Economic Development. Reprinted with permission.
+Figure 16.2 Full Alternative Text
+
+Elements of Effective Formal Reports
+
+    16.2 Identify the characteristics of an effective formal report.
+
+Readers expect a report that is based on thorough research, critical analysis of the evidence, and clear presentation of the material.
+Accurate, Appropriate, and Clearly Interpreted Data
+
+Make sure your information is accurate and, to the best of your ability, unbiased. Use reputable information sources (particularly for statistical data), such as government documents, peer-reviewed sources, and sound reporting from nationally respected newspapers and similar sources. Make sure you interpret information fairly and provide valid conclusions based on your best research. Assume, for example, that you are writing a report to recommend the best brand of chain saw for a logging company. If, in reviewing test reports on various chain saw brands, you learn that one brand, Bomarc, is the easiest to operate but also has the fewest safety features, include both pieces of information in your report—even if you personally prefer this brand.
+Clearly Identified Purpose Statement
+
+Begin by defining the primary question the report will need to answer, and then identify any secondary questions. The biodiesel report discussed earlier may have begun with a question from a state legislator: “Will producing biodiesel benefit the state of Georgia?” Answering this question is the report’s primary purpose (feasibility analysis); however, this question leads to others, such as “What are the advantages and drawbacks of biodiesel use versus other types of fuels?” (comparative analysis) or “How does biodiesel fuel affect the environment?” (causal analysis). Create a purpose statement that addresses both primary and secondary purpose, such as “The purpose of this report is to examine the feasibility of biodiesel production in the state of Georgia by comparing biodiesel fuels to other alternatives and assessing their environmental effects.”
+Understandable Structure
+
+Structure your report for ease of navigation. Begin by outlining your report and adjusting that outline as you go. Then chunk the text so that large passages of dense information don’t overwhelm your readers. Next, sequence all your data in a logical order (spatial, chronological, problem-solution, cause and effect). After that, order information within your paragraphs for maximum readability. Finally, use clarifying headings and subheadings to announce what each section contains. For example, the heading “Data Analysis” does not really say much, whereas the heading “Physiological Effects and Health Risks” offers a clear, informative preview.
+Readable Style
+
+Readers don’t want to be bogged down with cumbersome prose. Make your writing clear by avoiding ambiguous pronoun references and modifiers, using active voice, avoiding nominalizations, unstacking modifying nouns, and avoiding unnecessary jargon. Make your writing concise by avoiding wordiness and eliminating repetition and redundancy. Make your writing fluent by combining related ideas, varying sentence construction and length, and using parallel structure. Write personably by choosing the appropriate tone and avoiding sexist and biased language. Ask a colleague or editor to copyedit your report before it is printed. Proofread the final version carefully.
+Audience-Centered Visuals
+
+Provide as much visual information as appropriate to make complex statistics and numeric data easy to understand. Graphs are especially useful for analyzing rising or falling trends, levels, and long-term forecasts. Tables and charts are helpful for comparing data. Illustrations, diagrams, and photographs are an excellent way to show a component or special feature. Place each visual near the accompanying text and be careful not to overuse visuals. The biodiesel feasibility study mentioned earlier uses visuals effectively. For instance, on page 18 of the report (see Figure 16.3), the writers quantify the reduction in emissions when biodiesel fuel is used. In that example, a table provides an excellent way to compare information without the requirement of reading a lot of dense prose.
+Figure 16.3
+
+Effective use of a visual in a formal report
+A figure shows an effective use of a visual in a formal report.
+
+Source: From “A Study on the Feasibility of Biodiesel Production in Georgia” by Professor George A. Shumaker et al. Copyright © 2003 by The University of Georgia’s Center on Agribusiness & Economic Development. Reprinted with permission.
+Figure 16.3 Full Alternative Text
+User-Friendly Design
+
+Remember that a well-designed document demonstrates consistency and cohesiveness via grid patterns, margins, paragraphs, justification, line spacing, font style, and font size. A good design also aids navigation and adds emphasis via headings, color, shading, bold, italic, underlining, color, bulleted and numbered lists, and running heads and feet (see Chapter 8).
+
+Parts of Formal Reports
+
+    16.3 Include all the essential parts in a formal report.
+
+Most formal reports consist of the front matter, the text of the report, and the end matter. Reports may be formatted differently, depending on the instructor or the workplace setting. Use Figure 16.4 as one model, but note the items discussed below, and be sure to follow the instructions of your course instructor or workplace or internship manager.
+Figure 16.4
+
+A sample formal report
+A figure shows a sample formal report.
+16.3-1 Full Alternative Text
+A figure shows the continuation of the formal report.
+16.3-1 Full Alternative Text
+A figure shows the continuation of the formal report.
+16.3-1 Full Alternative Text
+A figure shows the continuation of the formal report.
+16.3-1 Full Alternative Text
+A figure shows the continuation of the formal report.
+16.3-1 Full Alternative Text
+A figure shows the continuation of the formal report.
+16.3-1 Full Alternative Text
+A figure shows the continuation of the formal report.
+16.3-1 Full Alternative Text
+A figure shows the continuation of the formal report.
+16.3-1 Full Alternative Text
+A figure shows the continuation of the formal report.
+16.3-1 Full Alternative Text
+A figure shows the continuation of the formal report.
+16.3-1 Full Alternative Text
+A figure shows the continuation of the formal report.
+16.3-1 Full Alternative Text
+A figure shows the continuation of the formal report.
+16.3-1 Full Alternative Text
+A figure shows the continuation of the formal report.
+16.3-1 Full Alternative Text
+A figure shows the continuation of the formal report.
+16.3-1 Full Alternative Text
+Letter of Transmittal
+
+Many formal reports include a letter of transmittal, addressed to a specific reader or readers, which precedes the report. This letter might acknowledge individuals or organizations that helped with the report, refer readers to sections of special interest, discuss any limitations of the study or any problems in gathering data, offer personal (or off-the-record) observations, or urge readers to take immediate action. See page 293 (Figure 16.4) for a sample letter of transmittal.
+Front Matter
+
+Preceding the text of the report is the front matter: title page, table of contents, list of tables and figures if appropriate, and abstract or executive summary.
+Title Page
+
+The title page provides the report title, the names of all authors and their affiliations (and/or the name of the organization that commissioned the report), and the date the report was distributed to readers. The title announces the report’s purpose and subject by using descriptive words such as analysis, proposal, feasibility, or recommendation. Be sure the title fully describes your report, but avoid an overly long and involved title. Design the page so that the title is the most prominent item, highest on the page, followed by the name of the recipient(s), the author(s), and the date of submission. See page 294 (Figure 16.4) for a sample title page.
+Table of Contents
+
+The table of contents provides readers with an easy way to navigate the report. A table of contents helps readers find what they seek by page number for each major section. Do not include the letter of transmittal, title page, or table of contents itself, but do include the abstract or executive summary. Different style guides (academic and organizational) require different approaches; for example, APA style for research papers does not require a table of contents, yet for workplace reports this feature is typically included. (In Figure 16.4, the professor requested the student use a modified form of APA style by creating a running head and a table of contents.)
+
+Number the report pages using Arabic numerals (1, 2, 3), starting with the title page. For APA style, use a running head with page numbers as shown in Figure 16.4. In some report formats, pagination is done by having the “front matter” (title page; table of contents; list of figures) numbered using lower case Roman numerals (i; ii; iii) and with Arabic numerals (1, 2, 3) beginning on the first page of the report itself.
+
+Make sure headings and subheadings in the table of contents match exactly the headings and subheadings in the report. You can create a table of contents manually, but to ensure consistency between the table of contents and the report’s headings, you should create the table of contents using Word’s (or other software) table of contents tool. (Search in the help field for “create a table of contents”). This feature will connect each item to the page where the heading or sub-heading occurs and will place dot leader lines (……..) between the heading and the page number. The tool will also create indentations for secondary heading levels. For a sample table of contents, see page 295 (Figure 16.4).
+List of Tables and Figures
+
+If your report contains more than three tables and/or figures, on a separate page following the table of contents, list these items and their corresponding page numbers. If the report contains less than three tables/figures, you may skip this list. (Note that APA style does not require a list of figures, but different instructors, organizations, and journals will have their own rules.)
+Abstract or Executive Summary
+
+Instead of reading an entire formal report, readers interested only in the big picture may consult the abstract or executive summary that commonly precedes the report proper (see Chapter 14). APA style requires an abstract; some workplace reports will require an executive summary instead. The purpose of this summary is to explain the issue, describe how you researched it, and state your conclusions (and, in the case of an executive summary, indicate what action the conclusions suggest). Busy readers can then flip through the document to locate sections important to them.
+
+Make the abstract or executive summary as brief as you can. Summarize the report without adding new information or leaving out critical information. Write for a general audience and follow a sequence that moves from the reason the report was written, to the report’s major findings, to conclusions and recommendations. For an example of an abstract, see page 296 (Figure 16.4).
+Text of the Report
+
+The text of the report consists of the introduction, the body, and the conclusion. If the report is a scientific or technical paper to be submitted for publication, the body of the report should be broken up into other sections (methods, results, discussion, and recommendations). Figure 16.4 on pages 293–307 of this chapter illustrate a research report written by a student, which follows the basic pattern below but contains some additional items in the body section. The requirements of your class instructor or the style and format used at your workplace may vary a bit from these guidelines.
+Introduction
+
+The introduction engages and orients the audience and provides background as briefly as possible. Readers don’t generally need a long history lesson. In your introduction, identify the topic’s origin and significance, define or describe the problem or issue, and explain the report’s purpose. Briefly identify your research methods (interviews, literature searches, and so on). List working definitions, but if you have more than five, place definitions in a glossary. Finally, if you have not done so in the abstract or executive summary, state your conclusion. Don’t make readers wade through the entire report to find out what you are recommending or advising. For a sample introduction to a formal report, see page 297 (Figure 16.4).
+Body
+
+The body describes and explains your findings. Present a clear and detailed picture of the evidence, interpretations, and reasoning on which you will base your conclusion. Divide topics into subtopics, and use informative headings as aids to navigation, as described earlier in this chapter. The body of your report will vary greatly, depending on the audience, topic, purpose, and situation. The body of Figure 16.4 begins after the introduction of the report and ends with the recommendation at the end the report (pages 297–303 in this book).
+Conclusion
+
+The conclusion is vital because it answers the questions that originally sparked the analysis. In the conclusion, you summarize, interpret, and recommend. Although you have interpreted evidence at each stage of your analysis, your conclusion presents a broad interpretation and suggests a course of action (where appropriate). Your conclusion should provide a clear and consistent perspective on the whole document. Don’t introduce new ideas, facts, or statistics. Some conclusions take the form of a recommendation. See page 303 (Figure 16.4) for a sample conclusion.
+End Matter
+
+Following the text of the report (as needed) is the end matter, which may include a list of references cited in your report, a glossary, and/or appendices. Readers can refer to any of these supplements or skip them altogether, according to their needs.
+References or Works Cited List
+
+If you have used outside sources in your report (and typically you should), you must provide a list of References (per APA style) or of Works Cited (per MLA style) just after the text of the report or on a separate page. For detailed advice on documenting sources using APA or MLA style, see Appendix A of this book. The long report in Figure 16.4 uses APA style and includes a References list (page 304).
+Glossary
+
+Use a glossary if your report contains more than five technical terms that may not be understood by all intended readers. If five or fewer terms need defining, place them in the report’s introduction as working definitions or use footnote definitions. If you do include a separate glossary, announce its location when you introduce technical terms defined there (“see the glossary at the end of this report”).
+Appendices
+
+If you have large blocks of material or other documents that are relevant but will bog readers down, place these in an appendix. For example, if your report on the cost of electricity at your company refers to another report issued by the local utility company, you may wish to include this second report as an appendix. Other items that belong in an appendix might include complex formulas, interview questions and responses, maps, photographs, questionnaires and tabulated responses, texts of laws and regulations, and the like.
+
+Do not stuff appendices with needless information or use them to bury bad or embarrassing news that belongs in the report itself. Title each appendix clearly: “Appendix A: Projected Costs.” Mention the appendices early in the introduction, and refer readers to them at appropriate points in the report: “(see Appendix A)”. The sample report in Figure 16.4 includes an appendix on page 306.
+Strategies
+for Formal Reports
+
+    Choose an appropriate delivery format. On the job, formal reports are typically circulated via the organization’s file server (intranet) and/or as email attachments. Some formal reports are made available publicly, such as on the organization’s Web site. In class, you might be asked to upload your formal report to the class learning management system and to bring a paper copy to class.
+
+    Determine your audience. Be sure you understand what your audience needs to know or do as a result of reading your report.
+
+    Determine your analytical approach. Decide whether the primary purpose of the report is to compare items, look for a cause, or determine feasibility. Because formal reports are complex, also consider if the report will have a secondary purpose or purposes.
+
+    Do your research and document your sources. For a long, formal report, research is paramount. Strive for accurate, appropriate, and clearly interpreted data. Always think critically about the sources you consult during the research process. Document all your sources within the report (using parenthetical citation—see page 393 for MLA style and page 404 for APA style) and at the end of the report (in a References or Works Cited list—see page 394 for MLA Works Cited entries and page 405 for APA References).
+
+    Work from a clear purpose statement. You may need to revise your purpose statement during the research process as you uncover new information, but make sure the statement is finalized before you start writing your final draft of the report.
+
+    Use an understandable structure. Follow the strategies in Chapter 5 for outlining, chunking, sequencing, paragraphing, and using headings.
+
+    Write with a readable style. Follow the strategies in Chapter 6 to write with a clear, concise, fluent, and personable style.
+
+    Include audience-centered visuals. Follow the strategies in Chapter 7 for using graphs, tables, charts, illustrations, diagrams, and photographs as appropriate to enhance, not decorate, the report.
+
+    Create a reader-friendly design. Follow the strategies in Chapter 8 for consistency, cohesiveness, navigation, and emphasis.
+
+    Include all appropriate front matter. If appropriate, include a letter of transmittal. Always include a title page as well as a table of contents and an abstract or executive summary. If your report contains plentiful visuals, include a list of tables and figures.
+
+    Provide an introduction, body, and conclusion. In the text of the report, include an introduction to orient readers and provide background; a body with a clear and detailed presentation of findings; and a conclusion that answers the question or questions posed by the report, possibly with recommendations.
+
+    Include the appropriate end matter. Always include a list of References (APA style) or of Works Cited (MLA style) on a separate page at the report’s end. If your report includes more than five technical terms to be defined, place them in a glossary after the Works Cited or References page; otherwise, define the terms in your introduction or via footnotes in the report. Relevant secondary information that will not fit within the report (surveys, complex formulas, interviews, maps, and so on) belongs in an appendix at the very end.
+
+    Proofread. If possible, get someone else to read and edit your report.
+
+A Sample Formal Report
+
+Figure 16.4 is a formal report. Its author, Crystal Cunningham, was a student in the B.S. program in dental hygiene at the University of Minnesota. For a final project in her technical writing class, she chose a real-life research situation that fit nicely with her major. Crystal chose to examine the relationship between periodontal disease in mothers and low birth weights in their babies. Her research is aimed at other dental hygiene experts; in particular, she wants to send her report to a professor in her department who might wish to continue this research.
+
+With this audience in mind, Crystal makes appropriate choices about technical language, statistical analysis, and reference to scientific articles. While these approaches would not be suitable for a nonexpert audience, they are just right for an audience of her professor, students in this field, and other scientists. She understands that her primary purpose is to see if the literature can show a causal relationship. Another purpose is to convince her readers to take her work seriously so that her work might be continued and possibly published in a scientific journal (such a publication would then require that she write a new paper, one that conformed to the format and style of the journal).
+
+Checklist
+for Formal Reports
+
+    Have I determined the audience for this report?
+
+    Have I decided on the purpose, and have I chosen the right analytical approach (comparative, causal, feasibility) to fit this purpose?
+
+    Did I evaluate all sources consulted while researching?
+
+    Are my data accurate, appropriate, and clearly interpreted?
+
+    Does my report have a clearly defined purpose statement early in the report?
+
+    Is the structure of the report logical and appropriate for this setting?
+
+    Is the writing style clear and professional?
+
+    If there are visuals in my report, are the visuals supportive of what is in the text?
+
+    Are the pages well designed and easy to follow?
+
+    Is there a distinct introduction, body, and conclusion?
+
+    Does the introduction provide enough of an orientation to the issue or problem without being too long?
+
+    Does the body of the report offer a clear picture of the issue or problem?
+
+    Does the conclusion answer the question that originally sparked the analysis?
+
+    Have I included all the required and appropriate front and end matter?
+
+    Have I documented all my sources both in the text and in a References or Works Cited list?
+
+Applications
+General Applications
+
+    Choose a specific audience and purpose, based on a real-life situation at school or at work, and write out some ideas for how you would determine whether this situation is an appropriate one for a formal report. List all possible readers (audience members) and all possible purposes. List the kinds of questions your report will need to answer, and then list the kinds of research you will need to do in order to write the report. Bring this document to class for a discussion.
+
+    Prepare a formal report using causal, comparative, or feasibility analysis (or some combination). As you prepare your report, refer to the Strategies for Formal Reports on pages 291–292, the Checklist, and other materials in this chapter.
+
+Team Application
+
+In the workplace, it is common for reports to be written not by one individual but in teams. Thinking of an idea you might have for a report for this class, ask yourself whether this report might be a team project. How would you divide the tasks and ensure the work was being done fairly? What are the advantages and disadvantages of a team approach to a report? In groups of two to three, discuss these issues. If your instructor indicates that your report is to be team-based, write a memo (as a team) to your instructor indicating the role of each team member and the timeline.
+Global Application
+
+Go online and look for reports written in English by government agencies of different countries. See if you can use the material from this chapter to determine if the reports fall into causal, comparative, or feasibility categories. Look for similarities to the reports you are familiar with within the United States (or the one you are preparing for class), as well as differences in features such as structure and organization, word choice, formatting, use of visuals, levels of politeness, and so on.
+Digital and Social Media Application
+
+Look at the Team Application above and think about ways your team could best use digital and social media to collaborate on the report. For example, you could start a shared Google document and use the document and the chat feature to brainstorm ideas. Then, once you have a draft outline and set of ideas, you could convert this file to Word and use your class learning management system or email to share drafts back and forth. Each member of the team should use track changes to edit drafts of the document, and use a system for naming the versions of your files: for instance, file names such as “ClassReport_v1” would indicate version 1; use the same naming conventions for versions 2, 3, and so forth. Finally, once the report is complete (use the Checklist in this chapter to be sure), convert the file to PDF. Explore how to use the PDF comments feature as a way readers could provide input on your report.

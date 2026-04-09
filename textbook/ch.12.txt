@@ -1,0 +1,151 @@
+Chapter 12 Descriptions
+A photo shows someone typing on a laptop next to a book and a cell phone.
+Learning Objectives
+
+    12.1 Describe the audience and purpose of descriptions.
+
+    12.2 Maintain objectivity when writing descriptions.
+
+    12.3 Identify the elements and sequencing of descriptions.
+
+    12.4 Differentiate between and write product and process descriptions.
+
+    12.5 Write a set of specifications.
+
+Chapter Outline
+
+    Audience and Purpose of Descriptions
+
+    Objectivity in Descriptions
+
+    Elements of Descriptions
+
+    Product and Process Descriptions
+
+        Strategies for Descriptions
+
+    Specifications
+
+        Strategies for Specifications
+
+        Checklist for Descriptions and Specifications
+
+    Applications
+
+Descriptions are essential in workplace writing because, like definitions, they help ensure that readers understand the full meaning of any technical document. Descriptions and definitions often go hand in hand. For example, to return to the myocardial infarction example in the previous chapter (page 192), a medical student reading a document about myocardial infarctions would need to know not only that a myocardial infarction is a form of heart attack (definition) but also what causes such a heart attack (description).
+
+This chapter will explore how to write technical descriptions from a variety of angles and for a variety of purposes.
+
+Audience and Purpose of Descriptions
+
+    12.1 Describe the audience and purpose of descriptions.
+
+As with any technical document, consider audience and purpose carefully before writing a description.
+
+While definitions answer the questions “What is it?” or “What does it entail?” descriptions often include definitions first and then must answer the additional questions “What does it look like?” “What are its parts?” “What does it do?” “How does it work?” or “How does it happen?”
+
+Assume that most readers won’t be familiar with the product or process you are describing, and write your description at the appropriate level of technicality. An audience of medical technicians will easily understand jargon related to that field, but nonexperts will need familiar language. For example, the sentence “A tumor is a neoplasm” would make sense to most medical professionals; however, for an audience outside that field, you would need to use more accessible language, such as “A tumor is a growth of cells that occurs independently of surrounding tissue and serves no useful function.”
+
+Consider exactly what you want readers to know and why they need to know it. You may want to write out a purpose statement before you start writing your description, such as the following: “The purpose of this description is to help plumbing apprentices understand the parts of the Heatwave home water heater and how those parts work together to produce hot water.”
+
+Objectivity in Descriptions
+
+    12.2 Maintain objectivity when writing descriptions.
+
+A description can be mainly subjective (based on feeling) or objective (based on fact). Subjective descriptions do more than simply convey factual information; subjective descriptions use sensory and judgmental ideas such as “The weather was miserable” or “The room was terribly messy.” In contrast, objective descriptions present an impartial view, filtering out personal impressions and focusing on details any viewer could observe (“All day, we had freezing rain and gale-force winds”).
+
+Except in cases of promotional writing, descriptions should be objective. Pure objectivity is, of course, humanly impossible. Each writer filters the facts and their meaning through his or her own perspective and therefore chooses what to include and what to omit. Nonetheless, when writing descriptions, you should communicate the facts as we know and understand them. Even positive claims made in promotional writing (for example, “reliable,” “rugged”) should be based on objective and verifiable evidence.
+
+Being objective does not, however, mean forsaking some form of evaluation in cases in which a product or process may be unsafe or unsound. If there are important safety considerations about the product or process, be sure to include a mention or discussion of these items. (See also Chapter 13 for more information on how to include caution, warning, and danger information and visuals.)
+
+One way to maintain objectivity when writing descriptions is to provide details that are visual, not emotional. Ask yourself what any observer would recognize or what a camera would record. For example, instead of saying, “His office has a depressing atmosphere” (not everyone would agree), say “His office has broken windows looking out on a brick wall, missing floorboards, broken chairs, and a ceiling with chunks of plaster missing.”
+
+A second way to maintain objectivity is to use precise and informative language. For instance, specify location and position, exact measurements, weights, and dimensions instead of using inexact and subjective words like large, long, and near. Be careful, though, not to confuse precise language with overly complicated technical terms or needless jargon. For example, don’t say phlebotomy specimen instead of blood, thermal attenuation instead of insulation, or proactive neutralization instead of damage control. General readers prefer nontechnical language—as long as the simpler words do the job.
+
+Elements of Descriptions
+
+    12.3 Identify the elements and sequencing of descriptions.
+
+Descriptions typically include a forecasting title, an orienting introduction, a logical sequence of topics, clarifying visuals, and a summarizing conclusion. (Based on the writing conventions of your industry or job, some of which are themselves based on regulatory and legal requirements, not all descriptions contain all of these parts.)
+Title
+
+Promise exactly what the document will deliver—no more or less. For example, assume you are describing the braking mechanism of a particular brand and type of bicycle: Be clear in your title by referring to the exact brand and type of bicycle, and be limited in your title by indicating that you will only describe the braking mechanism. The title “A Description of a Bicycle” is neither clear nor limited. A better title would be “A Description of the Velo Racing Bicycle’s Center-Pull Caliper Braking Mechanism.”
+Introduction
+
+Descriptions rarely call for a standard topic or thesis statement because the goal of these documents is to catalog details to help readers visualize the product or process. Any description, however, should begin by telling readers what to look for. If you have written a purpose statement to help you orient yourself prior to writing the description, simply reuse it here. For example, you might say in your introduction, “The goal of this description is to introduce apprentice road construction workers to the parts and function of a standard jackhammer.” You may also simply want to start with a brief definition of what you will describe.
+Sequence of Topics
+
+For longer descriptions, choose the sequence, or organizational pattern most logically consistent with your purpose.
+
+To describe how something looks, including its parts, use a spatial sequence. Follow the same spatial patterns readers would follow when viewing the item. Do you want to move from top to bottom, inside to outside, or right to left or follow some other pattern? For example, when describing a laptop keyboard, you might follow an outside to inside spatial sequence, first describing the “on/off” and mouse keys, then moving inward to the “page up,” “page down,” “shift,” “tab,” “caps lock,” and function keys, and finally moving to the interior number, letter, and punctuation keys.
+
+To describe how something works, use a functional sequence. Describe the workings (functions) of the device in the order in which the parts function. For example, if you want to describe how a solar home heating system works, proceed from source to outlet: from the heat collectors on the roof through intermediate components to the heating vents.
+
+To describe how something is assembled, use a chronological sequence. Parallel the order in which parts are assembled or stages occur. For example, if you want to describe how to put together a small desk, describe how to put together the main parts first and the smaller, more decorative parts last.
+
+Spatial, functional, and chronological sequencing are not mutually exclusive; you can combine these sequences as needed. For example, in describing the appearance, use, and assembly of an atomic alarm clock, you would employ a spatial sequence to help readers recognize this item, a functional sequence to show how it works, and a chronological sequence to help readers assemble it correctly.
+Visuals
+
+You can explain a product or process as clearly as you like in words, but a clear diagram or other visual can show your readers the actual look and feel of the product or process. The diagram (top view) in Figure 12.1 adds a much-needed visual overview to what would be a complicated prose description. In addition to the picture, labels help readers interpret what they are seeing. The best definitions include both visuals and text combined.
+Figure 12.1
+
+A descriptive visual
+A figure illustrates a descriptive visual.
+
+Source: “Description of an Electricity Meter” illustration by George Retseck, from “Electricity Meters” by Les Rosenau, from Scientific American, March 2000, volume 108. Reprinted with permission.
+Figure 12.1 Full Alternative Text
+Conclusion
+
+A conclusion should be short and to the point and not introduce any new material. Conclusions should provide readers with a brief summary of what the description has attempted to accomplish; conclusions should also give readers a sense that they now understand everything they need to know about the product or process.
+
+Product and Process Descriptions
+
+    12.4 Differentiate between and write product and process descriptions.
+
+Descriptions generally divide into two broad categories: product descriptions and process descriptions. Anyone learning the parts of a particular device (say, a standard microscope) relies on a product description. Anyone wanting to understand the steps or stages in a complex event (say, how lightning is produced) relies on a process description.
+
+For example, the product description in Figure 12.2 gives beginning paramedical or nursing students a clear image of the overall device (a stethoscope) and its parts. The process description in Figure 12.3, on the other hand, helps surveyors or environmentalists understand the steps or stages by which contaminants may be removed from the soil using the “lasagna process.”
+Figure 12.2
+
+A product description
+A figure shows a product description.
+Figure 12.2 Full Alternative Text
+
+Figure 12.3
+
+A process description
+A figure shows a process description.
+
+Source: Based on Japikse, Catharina. “Lasagna in the making.” EPA Journal, 20.3.
+Figure 12.3 Full Alternative Text
+A Complex Product Description
+
+Figure 12.4 is a complex product description. The audience for the standard bumper jack description would be car and truck owners and other general readers. This audience needs to know only the basics—what it is, what it looks like, what its parts are, and how, generally, it works—before actually using the jack safely and effectively.
+Figure 12.4 A complex product description
+A figure shows a complex product description, along with comments.
+Figure 12.4 Full Alternative Text
+
+To plan this description, the writer has created an outline for what details to include and how to organize the material. Also, the writer has determined what not to include: for example, basic dimensions and measurements are included, but they are not the precise and detailed dimensions and measurements an engineering audience might require. Finally, the writer has kept the language simple and free of jargon that this audience might not understand.
+A Complex Process Description
+
+Figure 12.5 is an example of a complex process description. The writer has determined that the audience for the description of the acid rain process will be a nontechnical group of readers. The purpose of the document is to explain the threat posed by acid rain. To plan how to describe a scientific process to a nonscientific audience, the writer has created an outline and has used simple, jargon-free language.
+Figure 12.5 A complex process description
+A figure shows a complex process description, along with comments.
+Figure 12.5 Full Alternative Text
+
+Strategies
+for Descriptions
+
+    Take a look at the product or process. Study your subject. For a product description, get your hands on the item if you can; weigh it, measure it, take it apart. For a process description, observe the process yourself, if possible.
+
+    Analyze your audience. Determine your primary and secondary audiences. Then ask yourself exactly what your audience needs to know: “What does it look like?” “What are its parts?” “What does it do?” “How does it work?” or “How does it happen?” Decide on the appropriate level of technicality for your audience.
+
+    Analyze your purpose. Ask yourself why your audience needs your description.
+
+    Maintain objectivity. Think in terms of visual (not emotional) details and specific language when describing location, measurements, weights, and dimensions.
+
+    Be concise. Provide only what your audience needs.
+
+    Include all necessary parts. Include a clear and limiting title, an orienting introduction, the appropriate sequence of topics (spatial, functional, chronological—or a combination), and a conclusion that brings readers full circle.
+
+    Incorporate visuals. If allowable, enhance your verbal description using visuals, particularly if the product or process is too complicated to describe only in words.
