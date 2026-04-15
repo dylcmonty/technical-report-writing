@@ -201,17 +201,3 @@ Fruitful Network Development’s proposed response is a local-first, network-lat
 If that path is demonstrated, then a Phase II implementation effort would be rational. If it is not demonstrated, then the project should not advance on aspiration alone. That is the standard by which this proposal should be judged, and it is the standard around which the proposed work is organized.
 
 ---
-
-## Draft Source Basis
-
-This proposal draft is based on the reasoning, evidence, and structural guidance developed in the repo, with primary reliance on:
-
-- `past-writtings/sbir_discussion_evolution.md`
-- `past-writtings/sbir_fnd_proposal_considerations.md`
-- `work/assignment-13-proposal.md`
-- `past-writtings/SBIR/proposal-content.md`
-- `past-writtings/SBIR/FND_notes.txt`
-- `past-writtings/articles/agronomic_micro_structure.md`
-- `past-writtings/articles/modern_models_in_local_agriculture.md`
-- `past-writtings/articles/market-research-report.md`
-- `past-writtings/articles/regenerative_farming.md`
