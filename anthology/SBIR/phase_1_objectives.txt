@@ -1,0 +1,15 @@
+Our Mission for Phase I
+
+  We are pursuing a USDA SBIR Phase I research program to prototype and validate the Mycite framework in the field—proving that semantic data fabric and a matching engine can reduce waste, improve resilience, and strengthen local food systems.</p>
+
+Semantic Data Fabric
+
+  We build a unified vocabulary of entities (crops, farms, orders) and attributes (organic, location, quantity) using the Mycelium Schema Standardization. Farmers keep their own systems; Mycite reconciles differences so everyone speaks the same semantic language.
+
+ Autonomous Coordination
+
+  Farms and cooperatives retain full control over their data and operations. They publish availability and subscribe to local demand signals; smart matching engines suggest exchanges based on geography, perishability, and sustainability attributes.
+
+Economic Resilience
+
+  By pricing transport, perishability, and certifications into transactions, the system encourages buying local and rewards regenerative practices—reducing waste, strengthening communities, and stabilizing income for small producers.
