@@ -1,3 +1,9 @@
-# Problem-Driven Builder
+---
+title: Problem-Driven Builder
+kind: philosophy
+tags: ["problem-solving", "adaptability", "builder"]
+status: draft
+---
 
-When there is a problem in front of me, I find a bottomless source of motivation. I have a lot of practice jumping into unfamiliar technical areas and figuring them out as I go. That has meant building my car's engine control unit and adapting open-source software for its tuning, programming ETL processes for Medicare and Medicaid datasets, and teaching myself KiCad and SolidWorks to create an interface prototype and its housing. Each problem has required a different way of thinking, and that is part of why I keep seeking them out.
+When there is a problem in front of me, I find a bottomless source of motivation. I have a habit of jumping into unfamiliar technical areas and figuring them out as I go, whether that means engine-control systems, ETL workflows, hardware prototyping, or data models. I keep seeking out those situations because every difficult problem forces a different way of thinking.
+

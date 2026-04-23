@@ -1,3 +1,9 @@
-# Creativity and Practicality
+---
+title: Creativity and Practicality
+kind: perspective
+tags: ["agriculture", "operations", "technology", "impact"]
+status: draft
+---
 
-Working with people in the Ohio agricultural network gave me first-hand exposure to the gap between abstract technical ideas and real operational needs. Meeting with farmers, market organizers, and community leaders showed me how challenges in data management, logistics, and efficiency are shaped by local realities. It also showed me that creativity and practicality have to converge if a technical system is going to produce meaningful impact.
+Working with people in the Ohio agricultural network showed me that creativity and practicality have to converge if a technical system is going to matter. Conversations with farmers, market organizers, and community leaders made it clear that data management, logistics, and efficiency problems are always shaped by local realities. That changed the way I think about both product design and technical ambition.
+
