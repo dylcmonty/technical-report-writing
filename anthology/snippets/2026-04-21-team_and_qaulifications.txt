@@ -1,0 +1,8 @@
+Dylan Montgomery: Founder and Research Lead. Responsible for research design, data schema architecture, software development, pilot coordination, and analysis. Uses Claude for literature review support, ontology and schema iteration, code generation, data-cleaning
+ workflow development, and synthesis of pilot findings. Ricky Jia: Data Analytics Lead. Responsible for analytical methodology, data validation, exploratory and statistical analysis, metric design, and interpretation of pilot results. Uses Claude for data preprocessing
+ support, analysis workflow development, reproducible scripting, result summarization, and identification of trends, anomalies, and operational insights across pilot datasets.
+ 
+ Fruitful Network Development LLC is led by Dylan Montgomery, founder and research lead. I am a Computer Engineering and Applied Mathematics student at the University of Akron and have spent the last several years developing the Mycite framework for interoperable
+ agricultural operations data. This work has included customer discovery with agricultural stakeholders, placement in the University of Akron regional I-Corps pitch competition, collaboration touchpoints with Ohio State Extension’s Northeast Ohio Agricultural
+ Innovation Office, and applied systems work with local farm and community organizations in Northeast Ohio. My technical background is in software architecture, data modeling, and systems design; the project’s agricultural grounding comes from direct collaboration
+ with producers, local food organizations, and pilot-oriented field use cases. Claude would be used to accelerate literature synthesis, schema design, data normalization workflows, and pilot analysis.
