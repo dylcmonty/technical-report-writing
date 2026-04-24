@@ -2,7 +2,7 @@
 
 ## Abstract
 
-Interoperability problems in socio-technical networks are often misidentified as failures of transmission rather than failures of operational meaning. Independent systems can exchange files, messages, and records while still remaining inoperable when recipients cannot interpret structure, preserve meaning under change, or compose foreign data without bespoke adapters. This paper presents a bounded conceptual draft of the Mycelial Ontological Schema (MOS) as a response to that problem. MOS is not presented here as another database model, nor as a replacement for linked data, property graphs, schema registries, or content-addressed systems in general. Instead, it is framed as a datum-native semantic grammar intended for settings in which information form cannot be fully pre-limited by a single centralized schema. The paper argues that the relevant research gap is not the absence of self-description, graph structure, canonicalization, or decentralized identifiers in isolation, but the absence of a unified formal core that treats canonically reproducible abstraction paths, self-describing structure, reversible mapping, and semantic interoperability as coequal requirements. On that basis, MOS is presented as a synthetic proposal: a formalism in which abstractions rather than records or nodes are primary, in which structure is explicitly delimited and addressable, and in which cross-system coordination proceeds through shared grammar, mapping, semantic difference, and provenance rather than through repeated file shipping and ad hoc translation. The result is a more bounded and academically defensible novelty claim: MOS may be distinct not because it introduces any one isolated mechanism, but because it attempts to unify several previously separated concerns into a single abstraction-centered model for interoperable computation.
+Interoperability problems in socio-technical networks are often misidentified as failures of transmission rather than failures of operational meaning. Independent systems can exchange files, messages, and records while still remaining inoperable when recipients cannot interpret structure, preserve meaning under change, or compose foreign data without bespoke adapters. This paper presents a bounded conceptual draft of the Mycelial Ontological Schema (MOS) as a response to that problem. MOS is not presented here as another database model, nor as a replacement for linked data, property graphs, schema registries, or content-addressed systems in general. Instead, it is framed as a datum-native semantic grammar intended for settings in which information form cannot be fully pre-limited by a single centralized schema. The paper argues that the relevant research gap is not the absence of self-description, graph structure, canonicalization, or decentralized identifiers in isolation, but the absence of a unified formal core that treats canonically reproducible abstraction paths, self-describing structure, reversible mapping, and semantic interoperability as coequal requirements. Concretely, the MOS model distinguishes two canonical forms — a full ordered structure (MSS) and a minimal abstraction identity (hyphae) — and generates addressable structural namespaces (SAMRAS) from the structure encoding itself rather than from an externally declared schema. On that basis, MOS is presented as a synthetic proposal: a formalism in which abstractions rather than records or nodes are primary, in which structure is explicitly delimited and addressable, and in which cross-system coordination proceeds through shared grammar, mapping, semantic difference, and provenance rather than through repeated file shipping and ad hoc translation. The result is a more bounded and academically defensible novelty claim: MOS may be distinct not because it introduces any one isolated mechanism, but because it attempts to unify several previously separated concerns into a single abstraction-centered model for interoperable computation.
 
 ## 1. Introduction
 
@@ -12,7 +12,7 @@ That problem is especially pronounced in socio-technical settings. Software syst
 
 This paper develops a bounded draft of the **Mycelial Ontological Schema (MOS)** as a response to that problem. The paper does not claim that MOS solves interoperability in the absolute, nor that it supersedes established paradigms such as linked data, property graphs, schema registries, or content-addressed systems. Instead, it advances a narrower thesis: **MOS is best understood as a datum-native semantic grammar for interoperable socio-technical systems, intended for domains in which information form cannot be fully pre-limited by a single authoritative schema.** In that framing, the relevant question is not whether related technical ingredients already exist. They do. The relevant question is whether there is an established formal model that unifies structural self-description, path-native abstraction, reversible mapping, explicit semantic difference, and canonical reproducibility as a single formal core. The claim of this paper is that MOS is most plausibly distinct at that point of synthesis.
 
-## 2. The interoperability problem
+## 2. The Interoperability Problem
 
 Many contemporary integration strategies treat interoperability as a problem of transport. Two systems exchange a CSV file, a JSON payload, an API response, or an event stream, and the existence of a parseable artifact is taken as evidence that interoperability has been achieved. In practice, that assumption is weak. A receiving system may be able to parse a file without being able to interpret its structure, reconcile its meanings with local concepts, or incorporate it into ongoing computation without custom glue code.
 
@@ -20,77 +20,125 @@ This distinction can be stated more precisely. A fixed format typically solves *
 
 Several familiar failure modes follow. The first is **schema drift**, where field names, types, nesting, and invariants change over time across local implementations. The second is **semantic drift**, where similar-looking symbols or fields no longer carry the same operational meaning. The third is **adapter explosion**, in which the number of translators, ETL jobs, and local patches grows faster than the number of systems because each participant must continually reconcile local change with every external dependency. Format-first integration tends to obscure these problems temporarily rather than remove them. It permits exchange while pushing interpretation cost onto every receiver.
 
-This is why the strongest form of the interoperability problem is not “how do we make a file portable?” but rather “how do independently evolving systems remain operable with each other when the network cannot pre-limit the forms of meaningful information?” Once posed in that way, the problem no longer looks like a narrow matter of serialization. It becomes a question of formal representation, mapping, versioning, provenance, and shared interpretive structure.
+The interoperability literature supports this diagnosis precisely. The Levels of Conceptual Interoperability Model (LCIM) was explicit that meaningful interoperability extends beyond implementation standards and exchange formats, identifying semantic and conceptual levels as qualitatively different from syntactic ones (Tolk & Muguira, 2003). The schema-matching literature treated matching as a basic, ongoing problem in data integration and later retrospectives demonstrated that even well-studied alignment approaches remained active research areas rather than solved infrastructure. Ontology and semantic-integration research reinforced the same conclusion: different applications can use the same terms while attaching different semantics to them, and ontology-based alignment remains an open problem rather than a completed layer (Euzenat & Shvaiko, 2013). This is why the strongest form of the interoperability problem is not "how do we make a file portable?" but rather "how do independently evolving systems remain operable with each other when the network cannot pre-limit the forms of meaningful information?" Once posed in that way, the problem no longer looks like a narrow matter of serialization. It becomes a question of formal representation, mapping, versioning, provenance, and shared interpretive structure.
 
-## 3. Research context and adjacent paradigms
+## 3. Research Context and Adjacent Paradigms
 
 A bounded presentation of MOS requires careful placement among adjacent research traditions. The goal is not to deny prior art, but to identify the exact point at which MOS claims a different center of gravity.
 
-The first relevant lineage is **semistructured data**. That literature established that data can be self-describing without being structureless, and that heterogeneous or incompletely regular data need not be forced into a uniform table-first model. This is a foundational precedent for any schema-agnostic position. It supports the claim that structure may travel with the data rather than exist only as a separate external contract.
+### 3.1 Semistructured and Self-Describing Data
 
-The second lineage is **linked data and semantic-web work**, including RDF, JSON-LD, ontologies, and formal semantic vocabularies. These paradigms are essential precedents for machine-readable semantics, globally referenceable identifiers, and extensible meaning across distributed authorship. They show that interoperable semantics require more than syntax. At the same time, they do not by themselves establish a model in which structural order, path identity, and abstraction-centered reproducibility are primitive. Ordered collections and practical structural conventions often remain layered concerns.
+The oldest and closest formal lineage is the semistructured-data literature. The Object Exchange Model (OEM) and related work described semistructured data as self-describing, with schema embedded in the data and no a priori regular structure assumed; data was treated as heterogeneous, incomplete, and path-addressable rather than uniformly tabular (Abiteboul et al., 1997). This is an important scholarly base for the MOS proposal because it legitimizes the claim that "schema-agnostic" does not mean "structureless." Structure may travel with the data rather than exist only as a separately governed table design. MOS builds directly on this precedent — but extends it in the direction of ordered composition, dual canonicality, and abstraction identity as formal properties rather than incidental features of a flexible format.
 
-The third lineage is **graph and path-centric graph theory**. Property graphs, graph databases, and more recent research on first-class path treatment provide a close academic analogue to the intuition that paths may need to be treated as primary objects rather than as merely derived traversals. This is perhaps the strongest comparative baseline for MOS, because it already pushes beyond node-edge storage toward the treatment of paths as meaningful, reusable structures. Yet even here, the dominant conceptual center remains the graph object rather than the abstraction path as the primary carrier of reproducible meaning.
+### 3.2 Linked Data and Semantic-Web Work
 
-The fourth lineage is **content-addressed and traversable DAG systems**, especially those that combine serial-format agnosticism with generic pathing, selectors, and content-derived identity. These systems offer a major precedent for decentralized traversal and reproducible addressing without centralized schemas. They show that pathing and identity can be formalized independently of a single application format. However, they are not primarily designed as general semantic grammars for reconciling community-level meaning under heterogeneous evolution. They standardize traversable structure and content identity more directly than they standardize reusable semantic interpretation.
+The linked-data lineage, including RDF, JSON-LD, OWL, and RDF Schema, took a different route (W3C, 2014; Sporny et al., 2020). These paradigms are essential precedents for machine-readable semantics, globally referenceable identifiers, and extensible meaning across distributed authorship. They show that interoperable semantics require more than syntax, and that independently authored datasets can converge through shared vocabulary and formal semantic structure. At the same time, **order is not primitive in the core RDF graph model**: ordered collections must be represented explicitly through list vocabularies and encoding conventions layered on top of the underlying triple graph. That makes linked data a close precedent for extensible semantics but only a partial precedent for a model in which forward and backward logical ordering is intrinsic to the primary representation unit. JSON-LD demonstrates a related limitation: contexts can shape how the same JSON data is interpreted at different scales or for different audiences, which provides a useful technical precedent for the claim that interoperable convention can remain partly decentralized — but it does not address ordered abstraction or minimal reconstructive identity.
 
-The fifth lineage is **canonicalization and deterministic encoding**. Canonical schema forms, deterministic binary encodings, and dataset canonicalization all matter because MOS makes strong use of reproducibility claims. Here the important precedent is not merely that canonicalization exists, but that the academic landscape already distinguishes several types of sameness: structural sameness, schema-equivalence, content identity, and deterministic serialization. MOS enters this space only if it can show that its own distinction between a canonical full structure and a canonical minimal abstraction identity is both formal and nonredundant.
+### 3.3 Property Graphs and Path-Centric Graph Theory
 
-Finally, there is the lineage of **socio-technical interoperability research**, including schema matching, ontology alignment, conceptual interoperability, and standardization studies. This literature is essential because it demonstrates that interoperability failures are not reducible to syntax. They persist because meaning is contextual, evolving, and governed as much by institutions and incentives as by file formats. That body of work provides the most rigorous basis for MOS's claim that generalized interoperability cannot be secured merely by expanding the number of exchange formats or interface contracts.
+Property-graph systems form the second major comparison class. Their formal model centers on nodes, edges, labels, and property-value pairs. Recent graph-language research is especially revealing. The G-CORE language introduced the **Path Property Graph** model precisely because paths needed to become first-class citizens for closure and compositionality (Angles et al., 2018). Newer algebraic work on graph query languages continues to identify first-class path treatment as an active research frontier rather than a settled standard. This is the strongest academic baseline for MOS because it shows that the path-native intuition is recognized as a genuine gap in current graph-database paradigms, not a redundant elaboration. The distinction between that lineage and MOS is that property-graph work typically still treats the graph object as the central frame of reference, with paths as derived or augmented features. MOS proposes to make the **canonically reproducible abstraction** — not the graph object or the node — the primary carrier of identity and reproducibility.
 
-Taken together, these lineages establish a clear scholarly posture. MOS does not begin from an empty field. It begins at the intersection of several mature lines of work, each of which solves an adjacent part of the problem. The distinct question is whether these components can be unified around a different primary object: not the table, not the document, not only the node or triple, but the canonically reproducible abstraction.
+### 3.4 Content-Addressed and Traversable DAG Systems
+
+IPLD (InterPlanetary Linked Data) and related content-addressed DAG approaches are the closest established lineage for structural pathing without centralized schemas (Protocol Labs, 2021). IPLD explicitly presents itself as serial-format agnostic, provides generic pathing and traversal over a common data model, and relies on content-addressed hash-based links. Content Identifiers (CIDs) and multiformat prefixes provide self-describing identifiers. Selectors describe traversals over a DAG. This is highly relevant to the MOS "abstraction path" intuition — particularly the claim that pathing and identity can be formalized independently of a single application format. The key distinction is that IPLD standardizes traversable structure and content identity rather than community-level semantic agreement about what a newly coined abstraction should mean. **IPLD gives content-addressed structure and traversal; it does not give a grammar for reconciling meaning under heterogeneous evolution.** That semantic reconciliation layer remains outside the IPLD core.
+
+### 3.5 Binary Self-Description and Canonicalization
+
+For the binary representation layer, the most relevant precedent is the family of self-delimiting binary encodings. CBOR (RFC 8949) uses major-type headers that encode type and length information together, supports indefinite-length arrays, maps, and strings terminated by an explicit break code, and specifies a deterministic encoding profile. Critically, CBOR's specification documents the **self-delimiting property** that no well-formed CBOR item is a prefix of another — making CBOR parsing possible without out-of-band size declarations (Bormann & Hoffman, 2020). That property maps closely to MOS's requirement that meaningful units be self-delimiting.
+
+Existing binary formats differ sharply in how much they self-describe. **Protocol Buffers (Protobuf)** is compact and supports length-delimited records, but bytes are interpreted against an externally known message definition — they do not carry semantic cues in the stream. **Apache Avro** is more explicit about this tradeoff: binary Avro intentionally omits field names and type information from the payload, requiring the writer's schema or a schema with a compatible parsing canonical form to be available separately (Apache Software Foundation, 2023). Avro defines both a parsing canonical form and schema fingerprints precisely so schema equivalence can be tested without embedding full schema text in each message. **CBOR with tags and CDDL** moves further toward self-description because structural typing, delimiters, and some semantic cues can travel with the data itself. The literature therefore already establishes an important distinction: syntactic self-description, structural self-delimitation, and semantic interpretability are related but not equivalent conditions.
+
+Canonicalization is likewise an adjacent lineage, not an empty space. Avro schema fingerprints enable schema comparison and safe evolution. RDF now has a W3C recommendation-level canonicalization algorithm for datasets (Longley & Sporny, 2023). Content-addressed DAG systems use hash-consistent representations and self-describing identifiers. These are the nearest established relatives to MOS's distinction between a full canonical form and a minimal abstraction identity. The novelty question is therefore narrower and stronger: not whether canonicalization exists, but whether a model can formally justify **two non-redundant canonical forms** — one for total ordered structure (MSS) and one for minimal reconstructive identity (hyphae) — and explain why interoperable systems need both.
+
+### 3.6 Socio-Technical Interoperability Research
+
+Finally, there is the lineage of socio-technical interoperability research, including schema matching, ontology alignment, conceptual interoperability, and standardization studies. Star and Griesemer's concept of **boundary objects** — shared artifacts that are adaptable to different local viewpoints while remaining robust enough to maintain identity across them — provides a conceptual bridge to MOS's claim that interoperable convention can remain decentralized even when the substrate is standardized (Star & Griesemer, 1989). The socio-technical literature also demonstrates that interoperability failures are not reducible to syntax. They persist because meaning is contextual, evolving, and governed as much by institutions and incentives as by file formats. This body of work provides the most rigorous basis for MOS's claim that generalized interoperability cannot be secured merely by expanding the number of exchange formats or interface contracts.
+
+### 3.7 What Existing Systems Still Do Not Solve
+
+Across the sources surveyed, the gap is not the absence of individual ingredients. Semistructured data handles open form. RDF and JSON-LD handle globally referenceable semantics. Property and path graph research handles navigability and path-centric query. IPLD handles content-addressed traversal. CBOR handles self-delimiting binary structure. Avro and RDF canonicalization handle major forms of canonical equivalence. What is missing from any single widely adopted paradigm is a formal core that makes **order-bearing abstraction paths, schema-agnostic structure, deterministic binary framing, reversible cross-system mappings, and decentralized semantic convention all first-class within the same model**.
+
+The clearest technical absences are fourfold. Core graph models still privilege nodes, edges, and triples over path identity, which is why first-class path extensions keep reappearing as active research problems. Compact binary formats either depend on external schemas or stop at structural typing and lightweight tags without providing a grammar for semantic interpretation. Canonicalization systems usually canonicalize schemas, datasets, or content blocks, not a separately defined minimal abstraction identity layered over a full ordered structure. And semantic agreement still requires governance, mapping, and alignment work that lies outside the parser in every existing system. None of this means the MOS target is impossible. It means the combination is not already available as a mature, standard, generally agreed package.
+
+One maximally defensible sentence for what is not yet possible across this landscape is: current systems can make data portable, queryable, canonical, content-addressable, or semantically annotated, but they do not yet offer a broadly standardized way to make arbitrarily extensible information simultaneously path-native, self-delimiting, reversibly canonical, and semantically interoperable without substantial external convention management.
 
 ## 4. Defining MOS
 
-The strongest public definition of MOS is neither “a new database” nor “a graph database with extra features.” Those classifications mislocate the conceptual ambition of the model by making storage the primary category. The more precise description is that **MOS is a datum-native semantic grammar in which abstractions are represented as recursively composable relationships whose structure, boundaries, and references are made reproducible within a shared formal framework.**
+The strongest public definition of MOS is neither "a new database" nor "a graph database with extra features." Those classifications mislocate the conceptual ambition of the model by making storage the primary category. A more precise layered classification is as follows:
 
-This definition matters because it relocates the primary object of the system. In a relational system, the row and its schema are primary. In document stores, the document or object is primary. In graph systems, nodes and edges or triples are primary. In the MOS formulation developed across the project materials, meaning is built from rudimentary datum classes and compounded through reference, ordering, and abstraction operators. The system is therefore better described as **datum-first and abstraction-first** rather than record-first, document-first, or node-first.
+- **Most precise:** a datum-native semantic grammar and abstraction calculus for interoperable systems.
+- **Second-best:** a canonical ontology and serialization layer for reproducible, reversible cross-schema coordination.
+- **Third-best:** a vector-native interoperability fabric rather than a database proper.
 
-This shift allows a second definitional step. MOS can be understood as a model in which a complex structure is not only stored, but **reproducibly derived**. The concern is not merely that a datum exists, but that its formation, reference-paths, and ordered composition remain intelligible across systems. On this view, a structure is not simply a container of facts. It is an abstraction that can be reconstructed, traversed, compared, and mapped because the rules of its composition are explicit.
+The underlying reason for this classification is that **MOS stores the rules of abstraction themselves, so that different systems can preserve their own local structure while still computing on shared meaning.** Most data systems store records, documents, or graph objects. MOS stores the compositional relationships that allow meaning to be derived, reproduced, and reconciled.
 
-A related concept in the project materials is the distinction between a canonical full representation and a canonical minimal abstraction identity. The former refers to a fully ordered and reproducible structure; the latter to the minimal abstraction basis needed to regenerate or recognize a datum. The paper does not attempt here to formalize those mechanisms in full. It does, however, take seriously the claim that this **dual canonicality** is central to MOS. If formalized rigorously, it would distinguish MOS from many neighboring systems that canonicalize a schema, a block, or a dataset, but do not separately canonicalize a minimal abstraction identity layered over a full ordered structure.
+The more precise description is that **MOS is a datum-native semantic grammar in which abstractions are represented as recursively composable relationship vectors whose structure, boundaries, and references are made reproducible within a shared formal framework.** This definition matters because it relocates the primary object of the system. In a relational system, the row and its schema are primary. In document stores, the document or object is primary. In graph systems, nodes and edges or triples are primary. In MOS, meaning is built from rudimentary datum classes and compounded through reference, ordering, and abstraction operators. The system is therefore **datum-first and abstraction-first** rather than record-first, document-first, or node-first.
 
-The most defensible one-sentence formulation is therefore the following:
+### 4.1 Concrete Datum Model
 
-**MOS is a datum-native semantic grammar in which complex meaning is constructed through recursively composable abstractions, with canonical full-state representation and canonical minimal abstraction identity enabling reproducible structure, reversible mapping, and cross-system coordination without forcing all participants into a single centralized application schema.**
+To make this more than a definitional claim, the MOS model grounds itself in a concrete datum logic. Each datum is addressed by a three-segment coordinate: **layer — value\_group — iteration**. This addressing is ordered, non-skippable, and cascading: inserting or removing a datum requires shifting the iteration values of all following datums and propagating reference updates from the highest abstraction downward. The constraint ensures that every datum's position within the namespace is both canonical and deterministically derivable — not an arbitrary assignment, but a positional identity that follows from the structure itself.
 
-That statement is narrower than a general claim to universal novelty, but stronger in academic terms because it specifies both the object and the intended function.
+From this base, MOS defines the **SAMRAS address space** (shape-addressed mixed-radix address space): a structural namespace derived canonically from the structure encoding rather than from a pre-declared external schema. SAMRAS stores child counts in breadth-first order and derives node addresses from ordinal positions, so the full addressable hierarchy is generated from the bitstream without separate schema declaration. This is the concrete realization of the claim made in Section 3.7 — that the combination of structure-native addressing and schema-agnosticism is not yet present in a single widely adopted standard.
 
-## 5. Self-describing semantic grammar
+### 4.2 Dual Canonicality: MSS and Hyphae
+
+MOS relies on two distinct canonical forms, and the distinction between them is central to its novelty claim.
+
+The first is **MSS (Monotonic Structured Serialization)**: the canonical full-state representation of an information structure, comprising the complete ordered and composed datum set. MSS gives a total canonical form for the entire structure, enabling deterministic identity at the structure level.
+
+The second is **hyphae**: the canonical minimal abstraction identity needed to reconstruct or recognize a specific datum. The hyphae value of a datum is the minimal collection of preceding datums required to abstract to it, always including all preceding rudi datums even if not used directly. For example, if a datum uses address `0-0-5`, its hyphae value includes `0-0-1` through `0-0-5`. This is not simply a schema fingerprint or a dataset hash. It is a minimal reconstructive identity: the smallest canonical basis from which the datum can be reproduced forward and backward.
+
+This **dual canonicality** distinguishes MOS from neighboring canonicalization approaches. Avro's canonical form and schema fingerprints concern schema-level equivalence. RDF dataset normalization concerns the canonical form of a dataset as a whole. Content-addressed DAG systems give block-level identity via hashing. None of these separately formalize a minimal abstraction identity layered over a full ordered representation. MOS claims that interoperable systems need both: one canonical form to confirm total structural identity, and one to confirm the minimal basis for reconstructing a specific abstraction.
+
+### 4.3 Abstraction Operators
+
+Beyond the datum model and the two canonical forms, MOS defines a family of abstraction operators by which complex meaning is built from simpler datums. By referring to prior defined datums in lower layers, a new datum expands an existing abstraction by:
+
+- **Iterative duplication**: notating the magnitude of repetition within a defined space.
+- **Fractal expansion**: notating the magnitude of recursive structural growth.
+- **Point selection**: selecting specific positions within defined spaces rather than continuous ranges.
+- **Simultaneous selection**: maintaining multiple selections of datums at the same time.
+- **Selection set creation**: treating sets of simultaneous selections as first-class objects.
+
+These operators are not simple query predicates. They are part of the ontology of how abstractions are formed, making selection a compositional primitive rather than a retrieval behavior. The closest analogues in adjacent systems — IPLD selectors, XPath, property-graph traversal — treat selection as query behavior over an existing model. MOS treats selection as constitutive of the abstraction itself.
+
+The most defensible one-sentence formulation of MOS is therefore: **MOS is a datum-native semantic grammar in which complex meaning is constructed through recursively composable abstractions, with canonical full-state representation (MSS) and canonical minimal abstraction identity (hyphae) enabling reproducible structure, reversible mapping, and cross-system coordination without forcing all participants into a single centralized application schema.**
+
+## 5. Self-Describing Semantic Grammar
 
 The conceptual core of MOS depends on the idea of a **self-describing semantic grammar**. This does not mean that every datum is self-sufficient in the strongest possible sense, nor that no shared convention is required. It means that a representation framework carries enough structural and semantic boundary information for an independent system to identify meaningful units and understand how those units relate without relying on a bespoke contract for every partner.
 
 A self-describing semantic grammar requires at least four conditions.
 
-First, it requires **self-delimitation** or equivalent explicit boundary rules. A receiver must be able to determine where meaningful units begin and end without guessing sizes out of band. Whether this is achieved by delimiters, length-prefixing, or some other parser-level mechanism, the representation must define boundaries unambiguously.
+First, it requires **self-delimitation** or equivalent explicit boundary rules. A receiver must be able to determine where meaningful units begin and end without guessing sizes out of band. CBOR demonstrates one realization of this requirement at the binary level: the self-delimiting property ensures no well-formed item is a prefix of another. MOS extends this requirement from the binary encoding layer to the abstraction layer — boundaries must be explicit not only for parseable bytes but for meaningful compositional units.
 
-Second, it requires **hierarchy and grouping**. Independent systems do not exchange only flat values. They exchange collections, nested structures, scoped subobjects, and compound constraints. A grammar that cannot represent grouping and nesting without external schemas cannot function as a general interoperability substrate.
+Second, it requires **hierarchy and grouping**. Independent systems do not exchange only flat values. They exchange collections, nested structures, scoped subobjects, and compound constraints. A grammar that cannot represent grouping and nesting without external schemas cannot function as a general interoperability substrate. The HOPS profile chain — coordinate rings (`4-*`), polygon members (`5-*`), collections (`6-*`), and filament bindings (`7-*`) — illustrates how MOS expresses hierarchical composition through explicit ordered chaining rather than assumed nesting conventions.
 
-Third, it requires **composable addressing**. A receiver must be able to refer not only to whole artifacts, but to deterministically identified substructures. This is what makes the model more like reference-based coordination than file shipping. Stable paths allow systems to point to the relevant abstraction rather than repeatedly re-exporting complete snapshots.
+Third, it requires **composable addressing**. A receiver must be able to refer not only to whole artifacts, but to deterministically identified substructures. SAMRAS-derived addresses provide this within MOS. Stable structural coordinates allow systems to point to the relevant abstraction rather than repeatedly re-exporting complete snapshots.
 
-Fourth, it requires **explicit semantic cues**. A receiver must not only see that some values are grouped, but also have machine-readable cues about the roles those values play, the relationships between them, and the constraints under which they are meant to be interpreted. Without explicit semantic cues, a system may be structurally parseable while remaining operationally ambiguous.
+Fourth, it requires **explicit semantic cues**. A receiver must not only see that some values are grouped, but also have machine-readable cues about the roles those values play, the relationships between them, and the constraints under which they are meant to be interpreted. Without explicit semantic cues, a system may be structurally parseable while remaining operationally ambiguous. CBOR with CDDL schemas and JSON-LD contexts represent different partial solutions to this requirement; MOS addresses it through the rudimentary datum taxonomy (chronological, spatial, nominal) and the explicit abstraction-operator grammar.
 
-These conditions explain why self-description is stronger than ordinary serialization. A conventional payload may be syntactically valid while still depending on surrounding tribal knowledge, documentation, UI behavior, or bilateral assumption in order to be used correctly. A self-describing semantic grammar attempts to reduce that dependence by making structural and semantic interpretability part of the formal representation rather than a separate social layer concealed outside the artifact.
+These conditions explain why self-description is stronger than ordinary serialization. A conventional payload may be syntactically valid while still depending on surrounding tribal knowledge, documentation, or bilateral assumption in order to be used correctly. A self-describing semantic grammar attempts to reduce that dependence by making structural and semantic interpretability part of the formal representation rather than a separate social layer concealed outside the artifact.
 
 In the MOS framework, this requirement connects directly to the claim that information form cannot always be pre-limited. If the network cannot assume a fixed schema, then structure and meaning must be carried in a way that supports open-ended growth. The point is not to abolish convention, but to relocate convention from countless bespoke interface contracts toward a smaller shared grammar of structurally and semantically meaningful primitives.
 
-## 6. From file shipping to reference-based coordination
+## 6. From File Shipping to Reference-Based Coordination
 
 A major practical distinction in the project materials is the difference between **file shipping** and **reference-based resolution**. This distinction clarifies what kind of interoperability MOS is trying to support.
 
 In a file-shipping model, one node sends another node a file, export, or payload that is only meaningful in the receiver's context if the receiver already knows how to parse and interpret it. The burden of operability lies with every receiving system. Each participant must recognize the format, infer or import the relevant semantics, map the data into its local structures, and reconcile the incoming artifact with existing records or workflows. Such systems can scale as exchange networks, but they scale poorly as operable networks because each new participant imposes recurring interpretation work on every other participant.
 
-Reference-based coordination aims at a different ideal. Instead of treating the payload as an opaque artifact that must be reverse-engineered, it treats the exchange as a reference into a shared interpretive space. The communicated object is closer to “this abstraction, under this grammar, with this provenance, subject to these policies” than to “this file; infer what it means.” Coordination becomes a matter of resolving meaningful objects and subscribing to interpretable changes rather than repeatedly importing and reinterpreting foreign snapshots.
+Reference-based coordination aims at a different ideal. Instead of treating the payload as an opaque artifact that must be reverse-engineered, it treats the exchange as a reference into a shared interpretive space. The communicated object is closer to "this abstraction, under this grammar, with this provenance, subject to these policies" than to "this file; infer what it means." Coordination becomes a matter of resolving meaningful objects and subscribing to interpretable changes rather than repeatedly importing and reinterpreting foreign snapshots.
 
 This is not equivalent to saying that files disappear. Rather, it says that files cease to be the primary unit of coordination. The important unit becomes the addressable abstraction and the rules by which that abstraction is resolved. In this sense, MOS attempts to bring network communication closer to database-style references: not because all nodes share one physical database, but because they share a grammar within which references, mappings, and transformations become explicit and machine-auditable.
 
 The relevance of this shift is most obvious in heterogeneous multi-party environments. If local systems can project their own internal models into a shared grammar and if receivers can interpret those projections through explicit mappings, then the network can coordinate through references and semantic differences rather than through endless bilateral adapter work. The result is not uniformity. It is structured heterogeneity.
 
-## 7. Mapping, semantic difference, and provenance
+## 7. Mapping, Semantic Difference, and Provenance
 
 Once MOS is defined as a self-describing semantic grammar, interoperability can no longer be imagined as sameness alone. Independent systems will continue to have different local structures, units, vocabularies, and operational assumptions. A workable model therefore requires mechanisms for **mapping**, **semantic difference**, and **provenance**.
 
-Mapping is the bridge between a node's local model and the shared grammar. Every participant retains its own internal representation—tables, documents, graphs, spreadsheets, or application objects—but expresses those structures in the shared semantic grammar through explicit, inspectable mappings. This reduces the cost of integration because the work of translation becomes formalized and reusable rather than improvised afresh for every exchange.
+Mapping is the bridge between a node's local model and the shared grammar. Every participant retains its own internal representation — tables, documents, graphs, spreadsheets, or application objects — but expresses those structures in the shared semantic grammar through explicit, inspectable mappings. This reduces the cost of integration because the work of translation becomes formalized and reusable rather than improvised afresh for every exchange.
 
 Semantic difference is equally necessary. Even when two nodes refer to closely related concepts, they will often differ in units, nesting, vocabulary, timing, or interpretive rules. A coordination system that assumes away these differences will either collapse into forced standardization or degenerate into hidden divergence. MOS therefore implies a model in which differences are represented explicitly and resolved by policy or mapping logic rather than denied.
 
@@ -98,25 +146,40 @@ Provenance provides the third layer. If structures are mapped, transformed, and 
 
 Taken together, mapping, semantic difference, and provenance push MOS beyond the claim of a mere serialization format. They locate it instead as a coordination formalism: a way of making structures interoperable not because all parties agree completely, but because disagreement, variation, and derivation become visible and addressable within the model.
 
-## 8. The novelty claim
+## 8. The Novelty Claim and Prior-Art Matrix
 
-The strongest novelty claim for MOS is synthetic rather than absolute. It would be academically weak to claim novelty because MOS is relationship-centric, decentralized, canonicalized, self-describing, or path-based in any isolated sense. Each of those features has clear prior art in existing paradigms. The stronger claim is that **MOS attempts to unify these concerns around the abstraction as the primary formal object.**
+The strongest novelty claim for MOS is synthetic rather than absolute. It would be academically weak to claim novelty because MOS is relationship-centric, decentralized, canonicalized, self-describing, or path-based in any isolated sense. Each of those features has clear prior art. The stronger claim is that **MOS attempts to unify these concerns around the abstraction as the primary formal object.**
 
-The novelty claim therefore has four parts.
+The novelty claim has four parts.
 
-First, MOS gives **abstraction paths** or canonically reproducible abstraction structures a more central role than neighboring paradigms typically do. Although path-centric graph research and content-addressed traversal offer close precedents, MOS treats ordered abstraction and its reproducibility as a more foundational concern.
+First, MOS gives **abstraction paths** and canonically reproducible abstraction structures a more central role than neighboring paradigms. Although path-centric graph research and content-addressed traversal offer close precedents, MOS treats ordered abstraction and its reproducibility as a foundational concern rather than an extension or derived feature.
 
-Second, MOS appears to rely on **dual canonicality**: one canonical form for full ordered structure and another for minimal abstraction identity. This is a stronger and more unusual claim than conventional canonicalization, which usually concerns schemas, datasets, or content blocks without separately formalizing a minimal reconstructive identity.
+Second, MOS relies on **dual canonicality** (MSS and hyphae): one canonical form for full ordered structure and another for minimal abstraction identity. This is a stronger and more unusual claim than conventional canonicalization. Avro canonical form and RDF dataset normalization canonicalize schemas and datasets respectively. IPLD hashes canonicalize block content. None separately formalizes a minimal reconstructive identity distinct from the total structure. MOS asserts both are necessary for interoperable systems that must reconstruct, address, and compare abstractions independently.
 
-Third, MOS combines **self-describing structure** with **explicit mapping and semantic difference**. Many systems either assume a fixed schema, leave semantics largely external, or treat mappings as ancillary integration logic. MOS moves those into the conceptual center of interoperability rather than treating them as downstream patchwork.
+Third, MOS combines **self-describing structure** with **explicit mapping and semantic difference**. Many systems either assume a fixed schema, leave semantics largely external, or treat mappings as ancillary integration logic. MOS moves those into the conceptual center of interoperability.
 
-Fourth, MOS links technical representation to **structured heterogeneity** rather than to forced schema uniformity. Its aim is not to eliminate local models, but to allow locally governed systems to coordinate through a shared grammar without collapsing them into one platform-owned ontology.
+Fourth, MOS links technical representation to **structured heterogeneity** rather than forced schema uniformity. Its aim is not to eliminate local models, but to allow locally governed systems to coordinate through a shared grammar without collapsing them into one platform-owned ontology.
 
-These claims remain bounded. They do not assert that MOS has already been proven as a mature general standard, nor that it fully resolves ontology alignment, governance, or semantic change. They assert something narrower: that there is a plausible research contribution in treating abstraction-centered reproducibility, structural self-description, reversible mapping, and semantic interoperability as one unified formal problem.
+### 8.1 Prior-Art Comparison Matrix
 
-This is the proper academic posture for the project. It avoids rhetorical overreach while still identifying a real potential contribution.
+The following table maps each adjacent paradigm to what it canonicalizes and what it does not address, in order to locate MOS's distinct claim.
 
-## 9. Implications for interoperable socio-technical systems
+| Paradigm | What it canonicalizes | What it does not address |
+|---|---|---|
+| RDF / OWL | Triple sets; globally referenceable semantics | Ordered composition; minimal abstraction identity; path-native structure |
+| JSON-LD | Linked-data interpretation of JSON; context-scoped IRIs | Ordered hierarchy as a primitive; dual canonicality; abstraction operators |
+| Property graphs (Neo4j, etc.) | Node–edge–property model | First-class path identity (still an active research gap; see G-CORE) |
+| Path Property Graph (G-CORE) | First-class paths as queryable objects | Canonical abstraction identity; structural self-delimitation; semantic grammar |
+| IPLD | Content-addressed, format-agnostic traversal; CIDs | Community-level semantic agreement; reversible mapping; dual canonicality |
+| CBOR (RFC 8949) | Self-delimiting binary structure; major-type heads; deterministic encoding | Semantic interpretability; abstraction identity; cross-system mapping |
+| Apache Avro | Parsing canonical form; schema fingerprints | Path-native identity; minimal abstraction basis separate from schema; ordered composition |
+| RDF Dataset Normalization | Canonical dataset serialization | Minimal per-abstraction identity; structural namespace derivation |
+| Semistructured data / OEM | Schema-embedded, heterogeneous, path-addressable data | Ordered forward/backward composition; canonical abstraction identity |
+| MOS (this proposal) | Full ordered structure (MSS) **and** minimal abstraction identity (hyphae); structural namespace derived from encoding (SAMRAS) | Proven formal spec; standardized implementation; established review |
+
+The right column for MOS is honest: the claim rests on a bounded conceptual proposal, not a completed formal standard. What MOS currently lacks is a proven formal specification — parse rules, ordering semantics, canonicalization proofs, abstraction laws, and demonstrable mapping behavior. Without that formal layer, MOS remains a strong conceptual proposal and a research direction rather than a settled technical theory. But within that scope, the prior-art matrix shows the combination is not already available in any single paradigm.
+
+## 9. Implications for Interoperable Socio-Technical Systems
 
 If the MOS formulation holds, its implications are practical as well as conceptual.
 
@@ -130,7 +193,7 @@ The fourth implication is organizational rather than purely technical. A grammar
 
 For socio-technical systems, this matters because interoperability failures are rarely just software failures. They are failures of coordination under change. A model that reduces the need for hidden conventions and ad hoc translators could therefore improve not only data exchange, but also the ability of organizations to coordinate action across heterogeneous tools and institutions.
 
-## 10. Limits and non-claims
+## 10. Limits and Non-Claims
 
 A paper of this kind requires explicit boundaries.
 
@@ -142,30 +205,119 @@ Third, provenance and policy do not create **trust** by themselves. They create 
 
 Fourth, the paper does not claim that MOS is already a completed formal standard. The exact force of its novelty depends on future specification work: parse rules, ordering semantics, canonicalization proofs, abstraction laws, and demonstrable mapping behavior. Without that formal layer, MOS remains a strong conceptual proposal rather than a settled technical theory.
 
-Fifth, the paper does not claim universality in the metaphysical sense. It claims a bounded relevance for heterogeneous, evolving systems in which information form cannot be completely pre-limited and in which interoperability must survive local autonomy and change.
+Fifth, MOS does not claim that graph databases, RDF, IPLD, CBOR, or Avro are incorrect, incomplete, or weak in their own domains. The novelty claim is specific and comparative: MOS appears to target a combination that those paradigms do not individually or jointly deliver in a unified form. Each is a genuine and valuable precedent.
+
+Sixth, the paper does not claim universality in the metaphysical sense. It claims a bounded relevance for heterogeneous, evolving systems in which information form cannot be completely pre-limited and in which interoperability must survive local autonomy and change.
 
 These non-claims are not weaknesses. They are what make the argument durable.
 
 ## 11. Conclusion
 
-The problem that motivates MOS is not the absence of data exchange. It is the persistence of inoperability in systems that already exchange data. Format-first integration solves transmission more easily than it solves meaning, and as socio-technical networks evolve, that gap widens. Existing research traditions provide many necessary ingredients—semistructured data, linked data, path-centric graphs, content-addressed traversal, deterministic encoding, canonicalization, schema matching, and ontology alignment—but no single dominant model has made abstraction-centered reproducibility, self-describing structure, reversible mapping, and semantic interoperability the shared core of one formal system.
+The problem that motivates MOS is not the absence of data exchange. It is the persistence of inoperability in systems that already exchange data. Format-first integration solves transmission more easily than it solves meaning, and as socio-technical networks evolve, that gap widens. Existing research traditions provide many necessary ingredients — semistructured data, linked data, path-centric graphs, content-addressed traversal, deterministic encoding, canonicalization, schema matching, and ontology alignment — but no single dominant model has made abstraction-centered reproducibility, self-describing structure, reversible mapping, and semantic interoperability the shared core of one formal system.
 
-MOS is most defensibly understood as a response to that gap. It is not best described as another database, nor primarily as a graph store. It is better described as a datum-native semantic grammar and abstraction calculus for interoperable systems. Its potential distinctness lies in centering the reproducible abstraction rather than the record, the document, or only the graph fact; in requiring structure, boundaries, and semantic cues to be explicit; and in treating mapping, semantic difference, provenance, and canonical reproducibility as coequal parts of interoperability.
+MOS is most defensibly understood as a response to that gap. It is not best described as another database, nor primarily as a graph store. It is better described as a datum-native semantic grammar and abstraction calculus for interoperable systems. Its potential distinctness lies in centering the reproducible abstraction rather than the record, the document, or only the graph fact; in requiring structure, boundaries, and semantic cues to be explicit; in defining two non-redundant canonical forms (MSS for full ordered structure, hyphae for minimal abstraction identity); and in treating mapping, semantic difference, provenance, and canonical reproducibility as coequal parts of interoperability.
 
 Whether MOS ultimately succeeds as a formal contribution depends on future proof, not on rhetoric. It must demonstrate that its abstractions can be parsed, addressed, canonicalized, mapped, and resolved across heterogeneous systems in ways that existing paradigms do not already provide in combination. But framed in that bounded way, MOS has a credible and academically serious position: it is a proposal for how independently evolving systems might remain interoperable when the form of meaningful information cannot be frozen in advance.
 
-## Working reference base
+## References
 
-The present draft is synthesized from the project's internal research and conceptual manuscripts:
+### External Technical Standards and Academic Works
 
-- *Research Foundations for a Schema-Agnostic Abstraction-Path Data Model*
-- *Defining MOS as Novel and Distinct*
-- *Information Technology & Social Systems — Interoperability Notes (ULI / MSS Focus)*
-- *Self-Describing Semantic Grammars*
-- *Interoperability in Socio-Technical Networks*
-- *Mycelial Ontological Schema*
-- *drr-schema_agnostic_abstraction_path_data_model.md*
+Abiteboul, S., Quass, D., McHugh, J., Widom, J., & Wiener, J. L. (1997). The Lorel query language for semistructured data. *International Journal on Digital Libraries, 1*(1), 68–88.
 
-## Note for the next revision
+Angles, R., Arenas, M., Barceló, P., Hogan, A., Reutter, J., & Vrgoc, D. (2018). Foundations of modern query languages for graph databases. *ACM Computing Surveys, 50*(5), 1–40.
 
-The next academically stronger revision should add a formal prior-art matrix and an external bibliography comparing MOS directly against semistructured data models, RDF/JSON-LD, property/path graphs, IPLD, deterministic binary encodings, and canonicalization frameworks.
+Apache Software Foundation. (2023). *Apache Avro specification*. https://avro.apache.org/docs/current/specification/
+
+Bormann, C., & Hoffman, P. (2020). *Concise Binary Object Representation (CBOR)* (RFC 8949). Internet Engineering Task Force. https://www.rfc-editor.org/rfc/rfc8949
+
+Euzenat, J., & Shvaiko, P. (2013). *Ontology matching* (2nd ed.). Springer.
+
+Longley, D., & Sporny, M. (2023). *RDF dataset canonicalization* (W3C Candidate Recommendation). World Wide Web Consortium. https://www.w3.org/TR/rdf-canon/
+
+Protocol Labs. (2021). *IPLD: The data model of the content-addressable web*. https://ipld.io/docs/
+
+Sporny, M., Longley, D., Kellogg, G., Lanthaler, M., Champin, P.-A., & Lindström, N. (2020). *JSON-LD 1.1* (W3C Recommendation). World Wide Web Consortium. https://www.w3.org/TR/json-ld11/
+
+Star, S. L., & Griesemer, J. R. (1989). Institutional ecology, "translations" and boundary objects: Amateurs and professionals in Berkeley's Museum of Vertebrate Zoology, 1907–39. *Social Studies of Science, 19*(3), 387–420.
+
+Tolk, A., & Muguira, J. A. (2003). The levels of conceptual interoperability model. In *Proceedings of the 2003 Fall Simulation Interoperability Workshop*. Simulation Interoperability Standards Organization.
+
+W3C. (2014). *RDF 1.1 concepts and abstract syntax* (W3C Recommendation). World Wide Web Consortium. https://www.w3.org/TR/rdf11-concepts/
+
+### Internal Project Materials
+
+- *Research Foundations for a Schema-Agnostic Abstraction-Path Data Model* (`drr-schema_agnostic_abstraction_path_data_model.md`)
+- *Defining MOS as Novel and Distinct* (`mos_novelty_definition.md`)
+- *Mapping MyCite Datum Logic to a Database Schema* (`mycelial_ontological_schema.md`)
+- *MOS Operating SQL-Backed Core Declaration Draft* (`mos_sql_backed_core_declaration_draft.md`)
+- *Self-Describing Semantic Grammars* (`self-describing_semantic_grammars.md`)
+- *Interoperability in Socio-Technical Networks* (`interoperability_in_socio-technical_networks.md`)
+- *Information Technology and Social Systems* (`information_technology_social_systems.md`)
+- *Shape-Addressed Mixed-Radix Address Space* (`shape_addressed_mixed_radix_address_space.md`)
+
+---
+
+## Aside — Implementation Grounding and Research Notes
+
+*The following material is preserved from internal project research. It is not part of the formal white paper argument but provides context for how the conceptual claims map to a working implementation, and records limitations and open areas.*
+
+---
+
+### A. MOS in Implementation: From Conceptual Model to SQL-Backed Reality
+
+The abstract claims of this paper are not purely theoretical. A concrete SQL-backed realization of the MOS datum model has been pursued in the Mycite repository. The implementation reflects the same structural principles described in the paper:
+
+**Authority and ownership**: The canonical authority principal is a portal instance, defined by its operating `msn_id`. Owned units are first-class files identified by that `msn_id`, regardless of where they are stored or cached. This is a concrete realization of the "locally governed, network-coordinated" principle.
+
+**File-shaped authority surface**: Files remain first-class in the database API. This preserves the file-oriented runtime contracts while moving authority semantics into SQL-backed storage. The design ensures the abstract formalism (abstraction-first) does not require abandoning the operational reality (file-shaped runtime).
+
+**Adapter-swap architecture**: The implementation follows an adapter-swap pattern rather than a rewrite. A SQL-backed datum store adapter implements the existing datum-store ports, while filesystem adapters remain as compatibility projections during migration. This reflects the paper's point that a grammar-centered approach preserves local autonomy — in this case, the existing operational surface — while enabling a new coordination layer.
+
+**Minimum authoritative SQL surface (v1)**: The first viable SQL authority surface covers authoritative anthology/document reads, contract and reference resolution metadata, audit/event append store, portal capability and peripheral grants, and tool exposure and configuration metadata. Non-datum files (AWS-CSM profiles, hosted manifests, keypass inventory) remain filesystem-bound as explicitly documented exceptions.
+
+**Host-agnostic operation**: The implementation enforces that the host form factor does not decide storage semantics. A local desktop database is another adapter/peripheral package source, not a different application model.
+
+---
+
+### B. Datum-File Workbench: Canonical Visualization Surface
+
+The canonical visualization surface for the MOS datum model is the **datum-file workbench**: a read-only, additive-only, script-grounded workbench for datum inspection, distinct from a generalized spreadsheet editor. Its established terminology is:
+
+- **Anchor file**: the central authoritative file of a sandbox (e.g., `anthology.json` for the system sandbox)
+- **Layered datum table**: the ordered view of datums by structural coordinates
+- **Datum row**: a single addressable datum entry at `layer-value_group-iteration`
+- **Workbench lens**: a projection applied over raw datum data for human-readable display
+- **Structural coordinates**: the `(layer, value_group, iteration)` address triple
+
+The lens model is noteworthy: raw datum data is always preserved, while lens transformations are applied at presentation time with a visible watermark indicating which lens is active. This maintains the paper's distinction between the self-describing formal structure (raw) and the interpretive projection (lens-applied) as separable layers.
+
+---
+
+### C. Open Technical Areas
+
+The following areas remain formally incomplete in the MOS specification as of the time of writing. They are recorded here to support honest novelty claims and to mark the boundary between conceptual proposal and completed formal theory.
+
+1. **MSS hashing algorithm**: The precise monotonic structured serialization algorithm for generating `version_hash` from a complete datum file is documented in past repository commits but has not been consolidated into a single canonical specification document. The implementation uses a `canonical_v2` MSS compile/decode, but the exact hashing rules affecting the `version_hash` field require formal documentation before the canonicalization claim can be fully verified.
+
+2. **Hyphae chain derivation**: The high-level definition of hyphae value is clear (the minimal ordered set of preceding rudi datums required to reconstruct a given datum). The precise algorithmic derivation — how the engine traverses datum references to assemble the chain, and what determines inclusion beyond explicitly referenced preceding datums — has not been consolidated as a formal specification. This is the most critical gap for the dual-canonicality novelty claim.
+
+3. **Deterministic editing semantics**: The rules for inserting or removing datums while maintaining contiguous ordering and cascading reference updates are described in principle but not fully specified as a complete algorithm. The implementation uses application-level logic, but a formal specification of the insertion/deletion remapping algorithm is needed to make the datum address model fully verifiable.
+
+4. **Directive and context model (NIMM/AITAS)**: The NIMM (Navigation, Investigation, Mediation, Manipulation) and AITAS (Attention, Intention, Time, Archetype, Space) directive models appear in planning materials and are restricted to CTS-GIS tool-local state in the current implementation. Extension of these models to the general datum environment would require formal schema definitions. This is currently deferred.
+
+---
+
+### D. Classification of Internal Source Materials
+
+The following classification records the current status of internal project research materials relative to the canonical MOS paradigm:
+
+| Source document | Status |
+|---|---|
+| `mos_sql_backed_core_declaration_draft.md` | Canonized direction; SQL-only authority and adapter-swap architecture are established |
+| `mycelial_ontological_schema.md` | Core ideas carried into canon; speculative table decompositions remain source material |
+| `data_base_use_findings.md` | Partially canonized; durable direction mixed with speculative implementation ideas |
+| `mos_novelty_definition.md` | Source material / positioning; not fully proven canon; feeds this white paper |
+| `legacy_cleanup_assesment_and_final_consolidation.md` | Planning fuel; superseded by closure artifacts |
+
+The MOS cut-over is complete. The repository is no longer in "finish the cut-over" mode. It is in "follow-on hardening and focused evolution" mode. Personal notes classified as superseded or source-only remain as historical evidence; they are not active planning files.
