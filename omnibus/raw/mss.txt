@@ -1,0 +1,14 @@
+Rather than needing keys for values
+We can have a software that understands keys as pointers and values being with respect to a MSS location
+It's mostly about a system a visualizing
+	⁃	The value of a color can be visualized via hex code with the actual color
+	⁃	One might suggest that I'd be impossible to create domains for every desired data point. And it would be impossible to algorithmically aggregate values across domains
+	⁃	Currently computers keep numbers in respect to nominal keys. Rather the MSS keeps values as positions with respect to a local notation of the MSS abstraction path
+	⁃	Therefore, the MSS path is equivalent despite different abstractions/ordering manifestations
+	⁃	Equatable values can be traced in tables across value representations
+	⁃	So software can interpret data as created classes, for widgets or for data. But ultimately reduced down to conclude into the active format 
+	⁃	Method of storing and interfacing with data in a, semantically-algorithmic, ordered way; such that large amounts of context to a defined domain can be excluded for efficiency with out loss of detail
+	⁃	A website would be querying the contract dates and inventory
+Hence and actual color
+API/name/text/MSN_id/taxa/country/IP_address
+	⁃	These can all have reducible ids that can be standardized and/or 

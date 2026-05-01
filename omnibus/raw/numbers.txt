@@ -1,0 +1,35 @@
+The numbering system where a sequence starts at 0 (e.g., 00–59) is called zero-based numbering or zero-indexed. The system that starts at 1 (e.g., January 1, Day 1) is called one-based numbering or one-indexed. 
+Gist
+ +2
+Here is the breakdown of why this happens:
+
+1. Zero-Based Numbering (e.g., Lock 00–59) 
+	•	What it is: The first element is assigned the index 0, often called the "zeroth" element.
+	•	Why it's used: It is common in computer science, programming, and scenarios involving modular arithmetic (like a clock). In a 60-minute cycle, if you start at 0, the 60th position is 59 (60 units total: 0–59).
+	•	Examples: Digital time (00:00:00), programming array indices, physical odometer wheels.
+	•	Stack Exchange  +3
+
+2. One-Based Numbering (e.g., Calendar)
+	•	What it is: The first element is assigned the number 1.
+	•	Why it's used: It is based on ordinal numbers (first, second, third) and is used for counting distinct items, days, or months. It corresponds more closely to everyday, non-technical counting.
+	•	Examples: Days of the month (1–31), months of the year (1–12), years in Gregorian calendar (1 CE, no year 0). 
+	•	The Renaissance Mathematicus  +4
+
+Summary Table of Differences
+
+Feature	Zero-Based	One-Based
+First Item	0 or 00	1 or 01
+Last Item	
+𝑛
+
+−
+1	
+n
+𝑛
+Context	Technical/Computers	Human/Ordinal
+Example	00:00 (Midnight)	Day 1 of the Month
+Note: In the context of programming, this is often referred to as the "off-by-one" error, where a person confuses a 0-indexed system with a 1-indexed system. 
+Gist
+There is no year zero! | The Renaissance Mathematicus - WordPress.com
+Nov 18, 2019 — Ordinal numbers have a different function, there signify the position of items in a list, row, series etc. We also use different names for ordinal numbers to ca...
+The Renaissance Mathematicus

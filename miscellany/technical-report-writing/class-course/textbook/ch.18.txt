@@ -1,0 +1,195 @@
+Chapter 18 Email
+A photo shows a close up of an e-mail account on a screen, with the Inbox tab selected.
+Learning Objectives
+
+    18.1 Describe the audience, purpose, components, and organization of workplace email messages.
+
+    18.2 Recognize the different types of workplace email messages.
+
+    18.3 Write stylistically and tonally appropriate workplace email messages.
+
+    18.4 Understand basic issues about copyright and privacy in digital communication.
+
+Chapter Outline
+
+    Workplace Email
+
+    Types of Workplace Email
+
+        Strategies for Choosing and Using Email
+
+    Appropriate Style for Workplace Email
+
+        Strategies for Email Style and Tone in the Workplace
+
+    Copyright and Privacy in Digital Communication
+
+        Checklist for Email
+
+    Applications
+
+As described in previous chapters, workplace communication typically involves a combination of both print and digital media. Email is the most common form of digital communication on the job; email can be used on its own or as a way to send an attachment.
+
+Workplace Email
+
+    18.1 Describe the audience, purpose, components, and organization of workplace email messages.
+
+Email is the primary way people communicate in today’s workplace and professional settings; it has all but replaced the paper memo and letter. Email offers both rapid speed and wide reach: With one keystroke, an email can quickly reach the inboxes of thousands of people. These readers can easily forward the email (and any attachments) to others.
+
+Email is useful when people are in different time zones or have different working schedules: You can send an email at 2:00 a.m. if you are a night owl, and your early-bird colleague can read it in the morning. Or, if you are based in the eastern United States and your colleagues are in China, the 12-hour time difference means that email is essential to your work. Email also provides written documentation—an electronic trail, so to speak—that helps track a project or conversation or that may become important for legal reasons down the road. Finally, email can be read on most devices, from laptops to tablets to phones, making it an almost universal app for workplace communication.
+
+Email can be used to communicate the main message or to provide a cover note, directing readers to a longer message in an attachment (typically Word or PDF). In either case, email is best suited for straightforward messages that are not too long and that do not leave a lot of room for misunderstanding. In some jobs, people may send and receive dozens if not hundreds of emails on any given day. This speed provides efficiencies but also can cause problems if both readers and writers are not careful. On the job, email should be professional in tone and style, and messages should be precise, to avoid misinterpretation. Take your time to read and write email carefully; even writers who are usually quite professional may accidentally miss a spelling, grammar, or word choice problem.
+Audience and Purpose of Email
+
+With email, you do not have total control over the final audience. You might send your message to only a small group, but because of easy forwarding, your audience could turn out to be much larger. People also tend to be more casual and off-the-cuff on email, sometimes more than in person; therefore, audience considerations become crucial.
+
+Suppose, for example, that after a long week of work on a particularly tough engineering design project, you send a quick email to another manager. In your message, you complain about one of the engineers not holding up his end. You quickly press “Send” and head out for the weekend. At a Monday status meeting, you are surprised to find that your message was forwarded to several other engineers. Clearly, your original message was not intended for them, but—inadvertently or deliberately—someone forwarded it along.
+
+Remember this cardinal rule about email: Always assume your message will travel far beyond its intended recipient, and never send anything private or confidential via email.
+
+Email accomplishes various purposes: to schedule meetings, update team members on a project, send simple memos in electronic form, and send attached documents to colleagues both within and outside of an organization.
+
+Think carefully about whether email is the best medium for the given message. If you want your message to be private or confidential or if your message is too complex for email, set up a personal meeting or phone call. You can always follow up with a brief email that summarizes the main points. Also keep in mind how much email people get on a daily basis: Important items, even if marked as such, often get ignored or accidentally deleted. Finally, be sure to check before you send large attachments, such as long reports, proposals, or legal correspondence.
+Components and Organization of Email
+
+A typical email message combines features from both memos and letters. Emails usually begin with a heading, containing “To,” “From,” “Date,” and “Subject” fields. Most email programs also feature the courtesy copy (“cc”) and blind courtesy copy (“bcc”) fields. Use “cc” for people who need to know but are not central to the conversation. Use “bcc” for a very long list of recipients or for individuals who need to be in the loop but may not want their email address visible. Attachments (such as PDF files or other documents too large or too formal for the email itself) take the place of the “enclosure” notation on a paper memo or letter. Depending on the level of formality, email may sometimes be written with openings and closings (“Dear John,” “Best, Linda”).
+
+Regardless of length, an effective email should contain a brief introduction (even a single sentence) that gets right to the point, a clear body section with transitions (again, this section may be only a few sentences), and a brief conclusion that might ask readers to take action (such as “Please get back to me by 5:00 p.m. on Monday”). Visually, longer emails are easier for readers to process if information is broken into chunks, such as short paragraphs and bulleted lists. However, because email can be viewed on a range of screen sizes (computer, tablet, phone), keep email messages to about the size of one screen or less.
+
+Types of Workplace Email
+
+    18.2 Recognize the different types of workplace email messages.
+
+Email takes different shapes and forms, depending on where you work. A typical workplace email is shown in Figure 18.1. In this example, the writer, Rachel Byerson, sends a short message to one of her staff. Notice that this message is written with a professional tone and style and illustrates an important guideline: Do not use email to solve a complex situation, particularly an interpersonal one. Rachel received a long, rambling email from her employee, Dan, complaining about problems and specific people on a team project. Rachel realizes that these problems are too complicated to solve via email, so she invites Dan to set up a conference call instead. Her email doesn’t “take the bait” from Dan’s message, which could easily end up starting a long email chain that would only make the situation worse. Instead, she uses a considerate, polite tone and looks for a solution that involves the more personal, interactive medium of a phone call.
+Figure 18.1
+
+A Brief Email Message
+A figure shows a brief email message.
+
+Source: Microsoft Outlook 2013.
+Figure 18.1 Full Alternative Text
+
+Email is often used as a kind of cover memo to a longer attachment. In Figure 18.2, Harvey Keck writes to a consultant he wishes to hire. The email itself contains three short paragraphs (introduction; body; conclusion), which serve to provide background, some details, and context for the consultant. The longer item, a contract, is attached in PDF format. Harvey’s email is professional and to the point; he knows the consultant is very busy and makes sure the email message is no longer than one screen, is easy to understand, and provides his contact information.
+Figure 18.2
+
+A Cover Email Message
+A figure shows a cover email message.
+
+Source: Microsoft Outlook 2013.
+Figure 18.2 Full Alternative Text
+
+Another way email is used, particularly in large organizations, is as a formatted document that resembles company letterhead or other official communication. Unlike the examples discussed above, which are between two individuals, this type of email is sent from one part of the organization to all employees or to a large group of employees. The appearance signifies that the message is official and important. Figure 18.3 illustrates one such email; there is no attachment, rather, the email itself is formatted to look like a memo on letterhead. But because the message is digital, it contains links that readers can click on for more information. Typically, organizations will use the same visual format as a way to let readers know they should read the message. Formatting is clear, with plenty of white space, short paragraphs, and bulleted lists.
+Figure 18.3
+
+A Formatted Email Message
+A figure shows a formatted email message.
+
+Source: Microsoft Outlook 2013.
+Figure 18.3 Full Alternative Text
+Strategies
+for Choosing and Using Email
+
+    Consider whether your message is for one person or for a large group. Email between individuals is usually written within the email itself, but information for large groups (such as all employees, people who have signed up for a fitness plan, and so on) should be formatted in a way to make the message appear official. Doing so helps ensure that people will read the message.
+
+    Determine if the situation is too complicated for email. Solving complicated interpersonal issues (such as disagreements between team members) is not what email was designed to do. Use email in these cases to tone down the discussion and invite people to a meeting, conference call, or video chat, where employees can engage in real conversations and listen to each other.
+
+    Send attachments for long items or formal documents. It’s tempting to just paste the entire contents of a long document directly into an email message, but readers won’t appreciate this approach. Use attachments (in Word, if you are still working on the document or don’t care about precise page formatting, or in PDF if the document is complete and formatting needs to be retained). But don’t send too many attachments—it can be confusing for people to receive more than three attachments with any single email. For more than three documents, upload to a shared file server or the company intranet instead.
+
+    Consider confidentiality. Email may not be the best medium for sending legal documents, confidential company files, or anything else that should remain private. Also, before forwarding a message, obtain permission from the sender, who may have intended the message for you only.
+
+    Assume your email is permanent and readable by anyone at any time. Forensic software can find virtually any file that has been deleted, so don’t make promises you cannot keep or expect anything else you say to disappear forever.
+
+    Use appropriate formatting. Provide a brief introduction, details in the body, and a conclusion. Use bullets, headings, numbered lists, italics, and other formatting features to make your message easy to read.
+
+    Keep it short. Readers are impatient and don’t want to scroll through long screens of information. Messages longer than one screen will often go unread. If you must send a complex message, put longer details in an attachment.
+
+    End with a signature block. If appropriate, include the name and address of your organization or department, your telephone and fax number, and other contact information by using an automatic signature block.
+    
+
+Appropriate Style for Workplace Email
+
+    18.3 Write stylistically and tonally appropriate workplace email messages.
+
+Email between friends and family (personal email) often contains deliberately misspelled or abbreviated words, a disregard for grammatical rules, a lax attitude toward proper punctuation, a highly informal tone, and an emphasis on brevity over completeness. Workplace email, however, should use proper spelling, grammar, and punctuation. Avoid using capital letters, and be careful with abbreviations (“LOL,” “imho,” and the like) and emojis. As noted in the previous examples, always use a professional, respectful tone. A workplace email that is too casual (e.g., using such words as “uh huh,” “whatever,” and “cool”) or is incomplete will undermine the writer’s professionalism and confuse readers.
+
+Be sure to avoid flaming (angry, sarcastic, insulting messages that will only lead to repercussions). Don’t use biased language that demeans or excludes some potential readers. Do not use email for interpersonal issues, and avoid using it to blame others. Also, do not forward a particularly sensitive email without permission from the original writer, and do not edit an email to change the original meaning.
+
+The word “netiquette” reflects the idea of Internet etiquette, the concept that online writers need to be especially careful and considerate of style, tone, feelings, and authority. Figure 18.4 shows an email lacking in professional style and overall online etiquette. Although the writer and recipient are close personal friends in addition to their employee-supervisor relationship, an email like this should never be written in the workplace. Not only does the message have legal implications in terms of the writer’s job performance and future employment, but it also violates another employee’s confidentiality. It is also much too informal for any workplace document
+Figure 18.4
+
+A Workplace Email Lacking Professional Style and Tone
+A figure shows a workplace email lacking professional style and tone.
+
+Source: Microsoft Outlook 2013.
+Figure 18.4 Full Alternative Text
+
+Remember that email does not disappear. Your message will be backed up and saved somewhere (usually on the organization’s backup system or the like) and may be brought up later in personnel or legal proceedings. Frank (the writer in Figure 18.4) did not stop to consider that his email is not just a one-time message, never to be seen again. His email could be used as part of an employment or disciplinary case later. Email may not seem permanent, but it is. Pressing “send” too quickly can be a problem down the road. Think before you type, and think again (and proofread, and wait a bit) before you send.
+Strategies
+for Email Style and Tone in the Workplace
+
+    Consider your audience. If you are writing to a customer, client, or superior in your organization, use a more formal tone than with a coworker or immediate supervisor. If you know your recipient well, use an informal salutation (“Hello”) and an informal closing (“Regards,” “Best”). However, for someone you don’t know or someone in authority, use a formal salutation (“Dear Dr. Gomez”) and a formal closing (“Sincerely”).
+
+    Consider your purpose. Don’t use email when a more personal medium is preferable. Sometimes an issue is best resolved by talking face to face, making a phone call, or even just leaving a voice mail. Don’t use email to resign from a job, request a raise, respond to a formal letter, or respond to something that may have legal implications.
+
+    Write a clear subject line. Instead of “Test Data” or “Data Request,” be specific: “Request for Beta Test Data for Project 18.” This line helps recipients decide whether to read the message immediately, and it helps for filing and future reference.
+
+    Use informal language, emojis, and abbreviations sparingly—if at all. Even in an informal message, use proper spelling, grammar, and mechanics (avoid using only lowercase letters or all capital letters). Emojis should be avoided in workplace emails. The same goes for common abbreviations (FYI, ASAP, OMG), although technical abbreviations that are widely understood in your workplace are fine.
+
+    Proofread thoroughly before hitting “send.” Every message reflects your image, so double-check any email with your name on it. Also, be careful that the email goes only to your intended recipients.
+
+    Be professional. Take time to read email carefully; respond in a timely manner; avoid flaming (angry or personal attacks) and biased language; do not edit forwarded emails without the sender’s permission
+
+    Remember that there is a person on the other end of the message. Email (and other forms of digital media) provide a shield, of sorts, between you and your reader(s). In a rush to finish up some work, or in a moment of feeling frustrated or even angry, you may write a message that makes you feel good but forgets the very real fact that a person, not a machine, will read your words. Try writing out your thoughts in a separate document, or write the email but save it in the “drafts” folder. Review it again in a few hours and revise, keeping your “reader as person” in mind.
+    
+Copyright and Privacy in Digital Communication
+
+    18.4 Understand basic issues about copyright and privacy in digital communication.
+
+Because the various forms of digital communication discussed in this and the next two chapters are often written quickly and distributed widely, you need to keep in mind the importance of copyright and privacy issues.
+
+Copyright is a system of legal protection for original works of authorship (books, photographs, user manuals, music) that are “fixed in a tangible medium.” In other words, copyright applies when an idea becomes recorded or written down or otherwise fixed, as in a printed book, an email message, a Web site, or a recorded piece of music.
+
+In technical writing and communication, especially with digital communication, there are a few key aspects of copyright to be aware of. In the workplace, if you are a full-time employee, most of what you write and create is typically owned by the company. So be careful about posting material to a blog or Web site without first obtaining permission from the company. Also, you may find a photograph or piece of music or image on a Web site and think it’s the perfect visual for the report you are writing. But unless your use is for educational purposes or the piece is clearly marked as “copyright free” or “in the public domain,” you probably need to seek permission to use the item. (See page 415 for more on fair use.)
+
+If you are unsure about the copyright status of a work, it’s best to consult with a librarian or with the author of the material, keeping in mind that sometimes the author is a corporate, not individual, author.
+
+Digital communication also raises privacy issues. For example, avoid forwarding an email without checking with the sender first. Likewise, don’t forward proprietary information (information that originates in your company) to unauthorized recipients outside the company.
+Checklist
+for Email
+
+    Have I determined if email is the best medium in this situation?
+
+    Did I write a clear subject line?
+
+    Have I kept my message short and to the point?
+
+    Have I included a brief introduction, details in the body, a conclusion, and a complimentary closing and signature block?
+
+    Is my email appropriately informal or formal, depending on my audience?
+
+    Have I used emoticons, abbreviations, and text-speak sparingly (or not at all in a formal email)?
+
+    Does my email use a professional style?
+
+    Have I maintained confidentiality?
+
+    If responding to someone, did I take time to read the original email carefully?
+
+    Did I proofread my email and check the distribution list before sending?
+
+Applications
+General Applications
+
+    Choose a topic and an audience, and write an email complaining about something that bothers you, written in a way that follows proper email format, includes all the required components, and avoids flaming.
+
+    Using Figure 18.1 as an example, come up with a situation from a group project at school or a team project at work where there have been some interpersonal concerns or complaints. Acting as team manager, write a memo similar in size, tone, and approach to the one written by Rachel Byerson, but in this case, address your email to the entire team. Offer a suggestion for how the team might communicate in this case.
+
+Team Application
+
+Work with a team to write a collaborative version of the complaint email (Application 1 in General Applications). Remember, a real person will be reading your email, and you are hoping for a result.
+Global Application
+
+Copyright and privacy are subject to the laws of a country or region. The Internet and other technologies complicate matters because data can easily travel around the world without regard for borders. The World Intellectual Property Organization (WIPO) is an international group that oversees the global implications of intellectual property issues. If you can, talk to a communication professional who deals with international audiences. Ask about any difficulties the person has encountered with copyright or privacy. Review the WIPO Web site with this professional, and ask how the information on this site might affect the way she or he would write, design, and distribute various digital communications.
+Digital and Social Media Application
+
+Go online and search on the word “netiquette.” Compile a list of ideas, documenting which ideas came from which Web sites. Add any new ideas based on your own experience at work, at an internship, or at school. Create an informal report of your findings, and send this report to your instructor as an attachment to an email message. Be sure to cite the sources of the ideas that are not your own, and provide Web addresses for those sites. If your class is using a learning management system, your instructor may request that you and others post your report to a forum so others in class can see what you found; if so, what is the main finding that seems to be stated across all or almost all of the reports?
