@@ -1,3 +1,0 @@
-If you make some think you can't tell the differentce between your foot and your ass, 
-
-then when you put your foot down how should they know your not just sitting down.

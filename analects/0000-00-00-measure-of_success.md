@@ -1,0 +1,22 @@
+---
+title: Measure Of Success
+date: '0000-00-00'
+slug_convention: measure
+name: of_success
+classification: measure
+status: ''
+kind: ''
+source_path: analects/raw/measure_of_success.txt
+audience: []
+tags: []
+source_type: ''
+source_ref: ''
+related: []
+summary: ''
+---
+
+# Measure Of Success
+
+How do you plan to measure the success of using Claude in your research? Please list specific metrics or objectives that would indicate successful integration of our API (1-2 sentences, 200 words max)
+
+Success will be measured by concrete integration and outcome metrics: number of farms onboarded, percentage of pilot records normalized into the shared schema, reduction in manual data-cleaning and documentation time, reduction in producer data-entry burden, and faster turnaround for literature synthesis and analysis-script generation. Research success will also require evidence of operational or decision-quality improvement, such as better sell-through visibility, reduced shrink, improved forecast consistency, or clearer identification of the feasibility window for broader deployment.

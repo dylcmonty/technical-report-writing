@@ -1,0 +1,21 @@
+---
+title: Non Technical Description
+date: '0000-00-00'
+slug_convention: slug
+name: non_technical_description
+classification: slug
+status: ''
+kind: ''
+source_path: analects/raw/non_technical_description.txt
+audience: []
+tags: []
+source_type: ''
+source_ref: ''
+related: []
+summary: ''
+---
+
+# Non Technical Description
+
+Please provide a non-technical description of your product/service idea and what value it provides (75 words or less).
+Fruitful Network Development LLC develops software and data-schema infrastructure that enables small and mid-size agricultural operations to coordinate data, operations, and planning across decentralized networks. The company focuses on interoperable data models, farm-level operational tooling, and system architectures that improve visibility of supply, demand, and logistics while preserving local autonomy. Its work supports rural economic development, small farm viability, and scalable coordination without centralized ownership of data.

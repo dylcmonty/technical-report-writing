@@ -1,0 +1,24 @@
+---
+title: Team And Qualifications
+date: '2026-04-21'
+slug_convention: slug
+name: team_and_qualifications
+classification: slug
+status: ''
+kind: ''
+source_path: analects/raw/2026-04-21-team_and_qualifications.txt
+audience: []
+tags: []
+source_type: ''
+source_ref: ''
+related: []
+summary: ''
+---
+
+# Team And Qualifications
+
+Dylan Montgomery is the Founder and Research Lead of Fruitful Network Development. I am responsible for research design, data schema architecture, software development, pilot coordination, and analysis. Claude is used for literature review support, ontology and schema iteration, code generation, data-cleaning workflow development, and synthesis of pilot findings.
+
+Ricky Jia is the Data Analytics Lead. He is responsible for analytical methodology, data validation, exploratory and statistical analysis, metric design, and interpretation of pilot results. Claude is used for data preprocessing support, analysis workflow development, reproducible scripting, result summarization, and identification of trends, anomalies, and operational insights across pilot datasets.
+
+Fruitful Network Development LLC is led by Dylan Montgomery, founder and research lead. I am a Computer Engineering and Applied Mathematics student at the University of Akron, and I have spent the past several years developing the Mycite framework for interoperable agricultural operations data. This work has included customer discovery with agricultural stakeholders, placement in the University of Akron regional I-Corps pitch competition, collaboration touchpoints with Ohio State Extension's Northeast Ohio Agricultural Innovation Office, and applied systems work with local farm and community organizations in Northeast Ohio. My technical background is in software architecture, data modeling, and systems design; the project's agricultural grounding comes from direct collaboration with producers, local food organizations, and pilot-oriented field use cases. Claude would be used to accelerate literature synthesis, schema design, data normalization workflows, and pilot analysis.
