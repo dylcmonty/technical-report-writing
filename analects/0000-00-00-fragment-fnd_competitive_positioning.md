@@ -2,7 +2,7 @@
 status: draft
 audience: [investor, proposal, general]
 tags: [fnd, competition, positioning, marketplace, farm_software]
-related: [0000-00-00-claim-fnd_buyer_side_procurement_is_clearer_customer_than_farmer_tools, 0000-00-00-claim-fnd_data_participation_requires_immediate_farmer_value]
+related: [2026-05-02-claim-fnd_buyer_side_procurement_is_clearer_customer_than_farmer_tools, 2026-05-02-claim-fnd_data_participation_requires_immediate_farmer_value]
 ---
 
 # Competitive positioning

@@ -2,7 +2,7 @@
 status: draft
 audience: [investor, proposal, general]
 tags: [fnd, customer, procurement, food_hubs, grocers]
-related: [0000-00-00-approach-fnd_food_brokerage_startup_posture, 0000-00-00-approach-fnd_farmer_tools_as_supply_network_wedge]
+related: [2026-05-02-approach-fnd_food_brokerage_startup_posture, 2026-05-02-approach-fnd_farmer_tools_as_supply_network_wedge]
 ---
 
 # Buyer-side procurement is the clearer commercial customer

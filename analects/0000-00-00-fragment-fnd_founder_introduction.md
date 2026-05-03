@@ -2,10 +2,20 @@
 status: draft
 audience: [investor, proposal, journalist, general]
 tags: [fnd, founder, introduction, boilerplate]
-related: [0000-00-00-approach-fnd_food_brokerage_startup_posture]
+related: [2026-05-02-approach-fnd_food_brokerage_startup_posture, 0000-00-00-description-fnd, 0000-00-00-fragment-founder_about]
 ---
 
-# Founder introduction
+# Founder Introduction
+
+## Retrieval Gist
+
+Short founder introduction that positions Fruitful Network Development as a technology-enabled food brokerage and explains Dylan Montgomery's wedge into the market.
+
+## Use When
+
+Use when you need a short spoken or written introduction for Dylan Montgomery in startup, proposal, journalist, or general-audience contexts.
+
+## Fragment
 
 I’m Dylan Montgomery, founder of Fruitful Network Development.
 
@@ -14,3 +24,7 @@ FND is building a technology-enabled food brokerage for local produce. The probl
 My approach is to give farmers free or low-cost web and operations tools that make their supply easier to structure and coordinate. That builds the supply network. The commercial product is the buyer-side brokerage layer: helping grocers and food hubs source reliable local produce across many farms.
 
 I have conducted customer discovery across farms, co-ops, grocers, CSAs, and food organizations, and I have early paid deployment through managed agricultural web services. My goal is to turn a local services wedge into scalable procurement infrastructure for regional food systems.
+
+## Do Not Use When
+
+Do not use this as evidence that the buyer-side brokerage layer is already fully deployed at scale.

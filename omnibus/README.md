@@ -1,8 +1,8 @@
-# Articles Directory — README
+# Articles Directory - README
 
 ## Purpose
 
-This directory contains **reference-style (Wikipedia-like)** articles used as “Read More” links across the Fruitful Network Development website.  
+This directory contains **reference-style (Wikipedia-like)** articles used as "Read More" links across the Fruitful Network Development website.
 Articles should be **topic-bounded**, **precise**, and **non-promotional**.
 
 ## Expected location
@@ -11,39 +11,41 @@ These files are expected to live under:
 
 - `webapps/clients/fruitfulnetworkdevelopment.com/articles/`
 
-If you relocate them, keep links and build steps consistent with your site’s routing.
+If you relocate them, keep links and build steps consistent with your site's routing.
 
 ## Contents (current)
 
-- `fiscal_sponsorship_programs_taxes.polished.md`  
+- `fiscal_sponsorship_programs_taxes.polished.md`
   Fiscal sponsorship vs. sponsorship agreement; donation restriction/conditionality; bookkeeping implications.
 
-- `modern_models_in_local_agriculture.polished.md`  
+- `modern_models_in_local_agriculture.polished.md`
   A survey of modern regional/local agriculture operating models with examples.
 
-- `ne_ohio_greenhouse_industry.md`  
+- `ne_ohio_greenhouse_industry.md`
   Northeast Ohio greenhouse industry history and its economic/infra implications.
 
-- `ne_ohio_historic_local_food_system.md`  
+- `ne_ohio_historic_local_food_system.md`
   Historic local food system infrastructure and mechanisms in Northeast Ohio.
 
-- `cuyahoga_valley_countryside_initiative.md`  
+- `cuyahoga_valley_countryside_initiative.md`
   The Countryside Initiative (CVCC) as a case study: structure, mechanisms, and role in regional food systems.
 
 ## House style (non-negotiable)
 
-- **Reference tone:** avoid “we/our/you,” avoid marketing language.
+- **Reference tone:** avoid "we/our/you," avoid marketing language.
 - **Topic purity:** do not introduce unrelated project concepts unless they are the direct subject.
 - **Definitions first:** define key terms near first use.
 - **Concrete structure:** use headings, short paragraphs, and lists; prefer mechanisms over opinions.
-- **Citations:** where factual claims depend on external sources, use a short “References” section.
-- **Length target:** generally **1–3 pages** when printed (history/models may exceed).
+- **Sectioning:** use plain `##` / `###` headings without numeric outline prefixes unless the document is explicitly a formal paper.
+- **Typography:** prefer plain ASCII punctuation in prose; avoid em dashes, smart-quote styling, and decorative separators.
+- **Citations:** where factual claims depend on external sources, use a short "References" section.
+- **Length target:** generally **1-3 pages** when printed (history/models may exceed).
 
 ## Filename rules
 
 - Use lowercase + underscores: `topic_subtopic_region.md`
-- Prefer explicit geography/time when relevant: `ne_ohio_…`, `historic_…`, `modern_…`
-- If you publish “polished” variants, keep the suffix consistent: `.polished.md`
+- Prefer explicit geography/time when relevant: `ne_ohio_...`, `historic_...`, `modern_...`
+- If you publish "polished" variants, keep the suffix consistent: `.polished.md`
 
 ## Linking guidance (site integration)
 
@@ -79,7 +81,7 @@ cat > new_article_name.md <<'EOF'
 # Title
 
 ## Summary
-(2–4 sentences. Define the topic boundary.)
+(2-4 sentences. Define the topic boundary.)
 
 ## Definitions
 - **Term:** definition
@@ -102,7 +104,8 @@ git mv old_name.md new_name.md
 
 ## Maintenance checklist
 
-- [ ] Remove any “SBIR / Phase / proposal” meta language (unless the article is explicitly about SBIR).
+- [ ] Remove any "SBIR / Phase / proposal" meta language (unless the article is explicitly about SBIR).
 - [ ] Ensure examples are labeled as examples (not implied universal truths).
 - [ ] Confirm headings reflect an encyclopedia outline (not a sales funnel).
 - [ ] Keep internal cross-links minimal and directly relevant.
+- [ ] Remove drafting notes, appended research dossiers, and raw model citation markup before treating a file as finished.

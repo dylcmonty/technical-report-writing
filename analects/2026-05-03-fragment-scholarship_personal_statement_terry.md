@@ -2,7 +2,7 @@
 status: stable
 audience: [scholarship, application]
 tags: [terry_scholarship, personal_statement, university_of_akron, computer_engineering, applied_mathematics, agricultural_technology]
-related: [2026-00-00-education-university_of_akron, 2026-00-00-experience-founder_and_developer, 2026-00-00-experience-icorps_national_science_foundation, 0000-00-00-motivation_framing-driven_approach]
+related: [2026-00-00-fact-university_of_akron, 2026-00-00-fact-founder_and_developer, 2026-00-00-fact-icorps_national_science_foundation, 0000-00-00-reflection-driven_approach]
 ---
 
 # Terry Scholarship Personal Statement

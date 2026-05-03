@@ -23,7 +23,7 @@ The highest-value repo files for this pass were these:
 - `textbook/ch.3.txt` for usability, audience, purpose, task analysis, timing, and information planning. fileciteturn23file0L1-L1
 - `modules/work-mod_3-teacher_note.txt` for concise definition/description/summary expectations relevant to the abstract, problem statement, and figure captions. fileciteturn30file0L1-L1
 - `anthology/proposal/v0.4-proposal-near-final.md` for the current body, technical objectives, eight-month sequence, and Phase II trigger logic. fileciteturn38file0L1-L1
-- `anthology/articles/agronomic_mirco_structure.md` for the coordination-failure loop, reinvestment cycle, and “critical point” framing. fileciteturn39file0L1-L1
+- `anthology/articles/agronomic_micro_structure.md` for the coordination-failure loop, reinvestment cycle, and “critical point” framing. fileciteturn39file0L1-L1
 - `anthology/SBIR/proposal_outline.md` for the section map, expected proposal parts, and SBIR-facing requirements. fileciteturn41file0L1-L1
 - `anthology/SBIR/sbir_research_notes.txt` for operational notes on qualifications, budget logic, and feasibility-oriented milestones. fileciteturn40file0L1-L1
 - `anthology/snippets/constraint--two-sided-feasibility-window.md` for the exact proposal-native definition of the overlap condition. fileciteturn42file0L1-L1

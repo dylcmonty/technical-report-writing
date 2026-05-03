@@ -2,7 +2,7 @@
 status: stable
 audience: [scholarship, application]
 tags: [terry_scholarship, leadership, service, founder, icorps, big_brothers_big_sisters]
-related: [2026-00-00-experience-founder_and_developer, 2026-00-00-experience-icorps_national_science_foundation, 2026-00-00-leadership_and_involvement-big_brother_big_sister_charity_volunteering, 0000-00-00-slug-team_vision_execution_qualifications]
+related: [2026-00-00-fact-founder_and_developer, 2026-00-00-fact-icorps_national_science_foundation, 2026-00-00-fact-big_brother_big_sister_charity_volunteering, 0000-00-00-fragment-team_vision_execution_qualifications]
 ---
 
 # Terry Scholarship Leadership and Involvement

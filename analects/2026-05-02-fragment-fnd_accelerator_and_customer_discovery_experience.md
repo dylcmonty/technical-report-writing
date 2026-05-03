@@ -2,7 +2,7 @@
 status: draft
 audience: [investor, proposal, general]
 tags: [fnd, customer_discovery, accelerator, commercialization]
-related: [0000-00-00-claim-fnd_buyer_side_procurement_is_clearer_customer_than_farmer_tools, 0000-00-00-claim-fnd_local_agriculture_failure_is_coordination_not_demand]
+related: [2026-05-02-claim-fnd_buyer_side_procurement_is_clearer_customer_than_farmer_tools, 2026-05-02-claim-fnd_local_agriculture_failure_is_coordination_not_demand]
 ---
 
 # Accelerator and customer-discovery experience

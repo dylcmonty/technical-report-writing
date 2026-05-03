@@ -2,7 +2,7 @@
 status: draft
 audience: [proposal, investor, general]
 tags: [fnd, local_agriculture, coordination_failure, market_inefficiency]
-related: [0000-00-00-approach-fnd_food_brokerage_startup_posture, 0000-00-00-claim-fnd_buyer_side_procurement_is_clearer_customer_than_farmer_tools]
+related: [2026-05-02-approach-fnd_food_brokerage_startup_posture, 2026-05-02-claim-fnd_buyer_side_procurement_is_clearer_customer_than_farmer_tools]
 ---
 
 # Local agriculture failure is coordination, not only demand

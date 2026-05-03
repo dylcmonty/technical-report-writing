@@ -1,0 +1,9 @@
+# Product Service Or Solution Market
+
+## Use When
+
+Describe the market for your product/service/solution
+
+## Fragment
+
+Our initial target market is the local and regional agricultural network: family farms, CSAs (Community Supported Agriculture), farmers markets, food hubs, and small-to-mid-sized independent groceries across Northeast Ohio and eventually broader rural and suburban regions. These customers often rely on manual processes and legacy systems not designed for small-scale, distributed operations. The larger opportunity scales to other community-based production industries that need affordable, user-controlled digital infrastructure.

@@ -1,0 +1,6 @@
+# Fnd Who Is Buying Services
+
+## Fragment
+
+The service FND provides will be bought by individually opened and operated farmer that are capable of benefiting from having a website.
+This is the temporary business model until the transition to a food brokerage.

@@ -2,7 +2,7 @@
 status: draft
 audience: [investor, proposal, journalist, general]
 tags: [fnd, positioning, boilerplate]
-related: [0000-00-00-approach-fnd_food_brokerage_startup_posture]
+related: [2026-05-02-approach-fnd_food_brokerage_startup_posture]
 ---
 
 # One-sentence positioning

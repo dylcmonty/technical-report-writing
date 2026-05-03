@@ -2,17 +2,16 @@
 status: draft
 audience: [investor, general]
 tags: [startup_posture, food_brokerage, grocery, food_hubs, farmers, open_source, Mycite, MOS, YC, I-Corps]
-related:
-  - 2026-00-00-boundary-website_hosting_is_the_wedge_not_the_innovation
-  - 0000-00-00-claim-transitional_feasibility_two_sided_viability
-  - 0000-00-00-claim-data_forfeiture_blocks_local_agriculture_tech_adoption
+related: [2026-00-00-claim-website_hosting_is_the_wedge_not_the_innovation, 0000-00-00-claim-transitional_feasibility_two_sided_viability, 0000-00-00-claim-data_forfeiture_blocks_local_agriculture_tech_adoption]
 ---
 
 # FND's startup posture is food brokerage, not farmer software
 
-Question: How should FND represent itself in startup settings such as I-Corps or Y Combinator?
+## Retrieval Gist
 
-Answer:
+How should FND represent itself in startup settings such as I-Corps or Y Combinator?
+
+## Approach
 In startup settings, FND should be represented as a technology-enabled food brokerage serving grocery stores and food hubs. The company is not primarily postured as a rural-development research project, an academic technology thesis, a professional accolade, or a free software project for farmers. Those frames may be appropriate in USDA, scholarly, academic, or professional settings, but they weaken the company’s startup representation if used as the lead explanation.
 
 The startup-facing posture is:
@@ -112,8 +111,7 @@ FND makes local produce sourcing reliable for grocers by giving farmers free sof
 - The existing analects entry on website hosting says hosting is a wedge, not the funded innovation.
 - The existing transitional-feasibility entry says FND’s Phase I logic is a two-sided viability question: farms must gain and food hubs or grocery buyers must be non-worse-off or improved.
 - The existing data-forfeiture entry says centralized coordination approaches struggle because farmers have little immediate incentive to surrender data or participate in closed tech systems.
-
-Sources:
+## Sources
 - NSF I-Corps Teams: https://www.nsf.gov/funding/initiatives/i-corps/about-teams
 - NSF I-Corps overview: https://www.nsf.gov/funding/initiatives/i-corps
 - USDA NIFA Commercialization Plans: https://www.nifa.usda.gov/grants/programs/sbir-sttr/commercialization-plans

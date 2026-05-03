@@ -2,7 +2,7 @@
 status: draft
 audience: [investor, general]
 tags: [fnd, cofounder, team]
-related: [0000-00-00-claim-fnd_buyer_side_procurement_is_clearer_customer_than_farmer_tools]
+related: [2026-05-02-claim-fnd_buyer_side_procurement_is_clearer_customer_than_farmer_tools]
 ---
 
 # Cofounder interest

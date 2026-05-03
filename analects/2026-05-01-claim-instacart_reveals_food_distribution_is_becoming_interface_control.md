@@ -2,18 +2,16 @@
 status: draft
 audience: [proposal, investor, technical]
 tags: [instacart, food_distribution, grocery, retail_media, platform_strategy, coordination, pricing]
-related:
-  - 0000-00-00-claim-transitional_feasibility_two_sided_viability
-  - 0000-00-00-mechanism-coordination_can_compress_overhead
-  - 0000-00-00-problem-coordination_burden_is_the_immediate_failure_mode
-  - 0000-00-00-governance-shared_interpretability_without_central_authority
+related: [0000-00-00-claim-transitional_feasibility_two_sided_viability, 0000-00-00-claim-coordination_can_compress_overhead, 0000-00-00-claim-coordination_burden_is_the_immediate_failure_mode, 0000-00-00-claim-shared_interpretability_without_central_authority]
 ---
 
 # Instacart reveals that food distribution is becoming interface control
 
-Question: What non-obvious business lessons does Instacart reveal about the food distribution ecosystem?
+## Retrieval Gist
 
-Answer:
+What non-obvious business lessons does Instacart reveal about the food distribution ecosystem?
+
+## Claim
 Instacart should not be read primarily as a grocery delivery company. Its public filings and platform materials show a business that monetizes the interface between retailers, consumers, shoppers, brands, payment systems, and store data. Delivery is the visible workflow; the more durable control points are marketplace access, fulfillment orchestration, first-party transaction data, retail media, retailer software, in-store sensors, payment eligibility, and price presentation.
 
 The central lesson is that the food distribution bottleneck is shifting upward from physical movement alone to control over interpretable demand, inventory visibility, fulfillment timing, substitution logic, and shelf-level attention.

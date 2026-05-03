@@ -1,0 +1,5 @@
+# Reason For Sought Support
+
+## Fragment
+
+The purpose of FND in seeking support is the pursuit of applied agricultural systems research grounded in active Northeast Ohio relationships, rather than a purely speculative concept. Fruitful Network Development already works with regional farm and community organizations, and the proposed use of support is narrowly scoped to scientific productivity: structuring evidence, data, and analysis for an open, pilot-based study of small-farm coordination and productivity.

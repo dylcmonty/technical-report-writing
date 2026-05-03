@@ -2,15 +2,26 @@
 status: stable
 audience: [general, technical]
 tags: [agriculture, entrepreneur, IoT, machine_learning, ohio]
+related: [2026-05-01-description-dylan_riffle_computation_agriculture_operator]
 ---
 
 # Interview Recap: Dylan Riffle
+
+## Retrieval Gist
+
+Dated recap of an NSF I-Corps interview with Dylan Riffle, supplemented with public biographical context relevant to agtech and local-food positioning.
+
+## Use When
+
+Use when you need interview-specific context about Dylan Riffle, his background, or how his profile informs comparison work for FND.
+
+## Recap
 
 This document synthesizes the NSF I-Corps interview conducted with Dylan Riffle on 2025-04-24, augmented with external biographical research.
 
 Dylan Riffle is a technologist and entrepreneur specializing in the intersection of computer science, biology, and agriculture. Originally from Mount Vernon, Ohio, he has become a prominent figure in the Southern California agricultural technology ecosystem through his work at UC Irvine and various startup ventures.
 
-## Role & Affiliations
+## Role and Affiliations
 
 - **Co-Founder, Leprendo:** A social marketplace and logistics platform connecting consumers directly to local, organic produce through transparent storytelling and efficient distribution.
 - **Chief Operating Officer (COO), Bioverse Labs:** Developers of the Bioverse One Sensor, an AI-powered IoT device that identifies insect species to enable precise pesticide application, potentially reducing usage by up to 40%.
@@ -32,8 +43,13 @@ Riffle's work focuses on decentralizing agricultural solutions, moving away from
 - Computational methods for multi-modal single-cell data integration.
 - **Pilot Studies:** Orchestrated a pilot study with an Amish community to test decentralized data submission and agricultural logistics tools.
 
-## Background & Origins
+## Background and Origins
 
 - **Origin:** Mount Vernon, Ohio (Mount Vernon High School, Class of 2019).
 - **Current Activity:** PhD research at Weill Cornell while maintaining leadership in ag-tech startups.
 - **Contact Date:** 2025-04-24 (NSF I-Corps Interview)
+
+## Boundaries
+
+- This recap combines interview context with later public biographical research.
+- Treat public-role and achievement claims as recap material unless independently re-verified for formal use.

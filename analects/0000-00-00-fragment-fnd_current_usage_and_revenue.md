@@ -2,7 +2,7 @@
 status: draft
 audience: [investor, proposal, general]
 tags: [fnd, revenue, usage, traction]
-related: [0000-00-00-approach-fnd_farmer_tools_as_supply_network_wedge]
+related: [2026-05-02-approach-fnd_farmer_tools_as_supply_network_wedge]
 ---
 
 # Current usage and revenue

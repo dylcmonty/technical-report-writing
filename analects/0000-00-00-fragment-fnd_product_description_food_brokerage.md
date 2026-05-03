@@ -2,7 +2,7 @@
 status: draft
 audience: [investor, proposal, general]
 tags: [fnd, product, food_brokerage, local_produce]
-related: [0000-00-00-approach-fnd_food_brokerage_startup_posture, 0000-00-00-approach-fnd_farmer_tools_as_supply_network_wedge, 0000-00-00-claim-fnd_local_agriculture_failure_is_coordination_not_demand]
+related: [2026-05-02-approach-fnd_food_brokerage_startup_posture, 2026-05-02-approach-fnd_farmer_tools_as_supply_network_wedge, 2026-05-02-claim-fnd_local_agriculture_failure_is_coordination_not_demand]
 ---
 
 # Product description

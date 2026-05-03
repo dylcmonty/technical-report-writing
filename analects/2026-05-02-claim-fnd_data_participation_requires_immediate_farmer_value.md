@@ -2,7 +2,7 @@
 status: draft
 audience: [proposal, investor, technical, general]
 tags: [fnd, data_forfeiture, farmer_adoption, open_source]
-related: [0000-00-00-approach-fnd_farmer_tools_as_supply_network_wedge]
+related: [2026-05-02-approach-fnd_farmer_tools_as_supply_network_wedge]
 ---
 
 # Data participation requires immediate farmer value

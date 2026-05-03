@@ -2,7 +2,7 @@
 status: draft
 audience: [proposal, investor, technical, general]
 tags: [fnd, open_source, trust, network_effects]
-related: [0000-00-00-claim-fnd_data_participation_requires_immediate_farmer_value, 0000-00-00-approach-fnd_farmer_tools_as_supply_network_wedge]
+related: [2026-05-02-claim-fnd_data_participation_requires_immediate_farmer_value, 2026-05-02-approach-fnd_farmer_tools_as_supply_network_wedge]
 ---
 
 # Open source supports trust and network scale

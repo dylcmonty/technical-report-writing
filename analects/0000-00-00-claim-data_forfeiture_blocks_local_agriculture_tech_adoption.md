@@ -2,18 +2,16 @@
 status: draft
 audience: [proposal, technical, general]
 tags: [data_forfeiture, local_agriculture, open_source, MOS, USDA_SBIR]
-related:
-  - 0000-00-00-claim-transitional_feasibility_two_sided_viability
-  - 0000-00-00-approach-shared_interpretability_without_central_authority
-  - 0000-00-00-claim-coordination_burden_is_the_immediate_failure_mode
+related: [0000-00-00-claim-transitional_feasibility_two_sided_viability, 0000-00-00-claim-shared_interpretability_without_central_authority, 0000-00-00-claim-coordination_burden_is_the_immediate_failure_mode]
 ---
 
 # Data forfeiture blocks local agriculture tech adoption
 
-Question: What is the current problem with local-agriculture technology solutions from a data perspective?
+## Retrieval Gist
 
-Answer:
+What is the current problem with local-agriculture technology solutions from a data perspective?
 
+## Claim
 The data umbrella term or data forfeiture idea is that there is no real immediate gain to be had my farmers for offering up their data or participation with tech solutions.
 
 More over, there is an obvious blockade to progress and growth as a profit model develops on the assumption that they alone are capable of developing all the necessary software, tools, and library recurred to support a networked system of data, assuming that their convention for the expected data has no draw backs or retraint that prevents even open source momentum from supporting outside cooperation. Additionally, this approach does not posture its self to benefit from compounding development.

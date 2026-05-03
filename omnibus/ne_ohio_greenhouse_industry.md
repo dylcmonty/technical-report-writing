@@ -1,7 +1,7 @@
 # Northeast Ohio Greenhouse Industry
 
 ## Overview
-In the late 19th and early 20th centuries, Greater Cleveland developed a dense cluster of commercial greenhouse operations and earned regional and national recognition as a “greenhouse capital.” The industry’s growth reflected a combination of **market proximity**, **distribution infrastructure**, and **energy economics** that made protected, season-extending production economically feasible.
+In the late 19th and early 20th centuries, Greater Cleveland developed a dense cluster of commercial greenhouse operations and earned regional and national recognition as a "greenhouse capital." The industry's growth reflected a combination of **market proximity**, **distribution infrastructure**, and **energy economics** that made protected, season-extending production economically feasible.
 
 ## Drivers of growth
 Greenhouse production scaled in Northeast Ohio when several conditions aligned:
@@ -25,8 +25,8 @@ Greenhouse viability is particularly sensitive to:
 As energy costs increased and competitors expanded with different cost structures (including large greenhouse operations outside the region), the local comparative advantage weakened. Many operators either shifted to different product categories (e.g., floriculture) or exited the market.
 
 ## Legacy
-The greenhouse era is often treated as a regional case study in how **infrastructure + proximity + input economics** can create durable agricultural specialization—and how changes in energy and scale competition can reverse that advantage.
+The greenhouse era is often treated as a regional case study in how **infrastructure + proximity + input economics** can create durable agricultural specialization-and how changes in energy and scale competition can reverse that advantage.
 
-## Sources
-- Encyclopedia of Cleveland History — Martin Ruetenik and early greenhouse development: https://case.edu/ech/articles/r/ruetenik-martin  
-- Cleveland Historical — overview of the regional greenhouse industry: https://clevelandhistorical.org/items/show/713  
+## References
+- Encyclopedia of Cleveland History - Martin Ruetenik and early greenhouse development: https://case.edu/ech/articles/r/ruetenik-martin
+- Cleveland Historical - overview of the regional greenhouse industry: https://clevelandhistorical.org/items/show/713

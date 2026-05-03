@@ -2,7 +2,7 @@
 status: draft
 audience: [investor, proposal, general]
 tags: [fnd, go_to_market, farmer_tools, brokerage]
-related: [0000-00-00-approach-fnd_food_brokerage_startup_posture, 0000-00-00-claim-fnd_data_participation_requires_immediate_farmer_value]
+related: [2026-05-02-approach-fnd_food_brokerage_startup_posture, 2026-05-02-claim-fnd_data_participation_requires_immediate_farmer_value]
 ---
 
 # Farmer tools as the supply-network wedge

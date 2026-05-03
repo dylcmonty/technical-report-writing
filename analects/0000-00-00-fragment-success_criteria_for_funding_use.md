@@ -1,0 +1,9 @@
+# Success Criteria
+
+## Use When
+
+How would you measure success in utilizing this funding?
+
+## Fragment
+
+Success will be clear if we can prove the value of our system with real users, reduce food system inefficiencies, and secure the foundation for long-term growth.
