@@ -2,6 +2,6 @@
 
 ## Fragment
 
-Fruitful Network Development is designed not just as a business, but as a model for strengthening local economies and empowering independent producers to maintain autonomy in an increasingly centralized and digital marketplace. Beyond the immediate technical solution, FND’s broader vision is to preserve local food networks, reduce waste, and create resilient, community-driven alternatives to industrial food systems.
-By enabling small agricultural operations to collaborate digitally without surrendering control to third parties, FND supports economic self-determination. A civic issue with major policy implications for sustainability, food security, and rural economic health. I believe that empowering communities with better tools, not bigger gatekeepers, is a principle that aligns strongly with Youth in Policy’s mission.
-Any help would enable me to push FND out of the theoretical stage and into a practical pilot, where it can prove its value directly to the communities it hopes to serve. Eventually leaving my hands and being an industry for any industry, one that anyone can grow, use and serve.
+I want Fruitful Network Development to strengthen local economies by helping independent producers keep more operational control in an increasingly centralized digital marketplace.
+
+My aim is not only to solve an immediate software problem. I want the work to preserve local food networks, reduce waste, and create more resilient alternatives to industrial coordination models. If farms and food organizations can collaborate digitally without surrendering control to a larger gatekeeper, the technical work becomes a practical form of economic self-determination.

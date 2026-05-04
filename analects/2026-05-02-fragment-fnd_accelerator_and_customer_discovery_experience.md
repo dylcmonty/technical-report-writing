@@ -2,13 +2,15 @@
 status: draft
 audience: [investor, proposal, general]
 tags: [fnd, customer_discovery, accelerator, commercialization]
-related: [2026-05-02-claim-fnd_buyer_side_procurement_is_clearer_customer_than_farmer_tools, 2026-05-02-claim-fnd_local_agriculture_failure_is_coordination_not_demand]
+related: [2026-05-02-fragment-fnd_startup_investor_posture, 2026-05-02-claim-fnd_buyer_side_procurement_is_clearer_customer_than_farmer_tools, 2026-05-02-claim-fnd_local_agriculture_failure_is_coordination_not_demand]
 ---
 
 # Accelerator and customer-discovery experience
 
-Participation in a regional customer-discovery and pitch process helped clarify FND’s commercial direction.
+## Fragment
 
-The main value was forcing the idea to be tested against real customer pain instead of only technical architecture. That process pushed FND toward deployment, revenue, buyer-side procurement clarity, and measurable operational value.
+I participated in a regional customer-discovery and pitch process that clarified FND's commercial direction.
 
-The company’s current posture reflects that shift: the long-term architecture still matters, but the business must begin with a painful transaction and a clear customer.
+The main value was being forced to test the idea against real customer pain instead of only against technical architecture. That process pushed me toward deployment, revenue, buyer-side procurement clarity, and measurable operational value.
+
+My current posture reflects that shift: the long-range architecture still matters, but the business has to begin with a painful transaction and a clear customer.

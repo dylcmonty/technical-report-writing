@@ -1,9 +1,18 @@
-# Product Service Or Solution Uniqueness
+---
+status: draft
+audience: [proposal, investor, general]
+tags: [fnd, positioning, interoperability, procurement]
+related: [0000-00-00-description-fnd, 2026-05-02-claim-fnd_buyer_side_procurement_is_clearer_customer_than_farmer_tools, 0000-00-00-claim-consumer_interest_does_not_become_local_advantage]
+---
+
+# Product, service, or solution uniqueness
 
 ## Use When
 
-What makes your product/service/solution unique?
+What makes FND different?
 
 ## Fragment
 
-Our industry research suggests that approximately 24 million dollars leak out of the local food system each year, just with respect to individually operated farms and perishable items’ disconnect of suppliers and buyers. FND Current solutions are rigid platforms, FND’s software is built to be opensource, modular, and it is an entirely new data innovation that has much larger implications. In addition to saving money by prevent waste, the aim is to create a network for local agriculture to operate at the same economies of scale and convenience as industrial agriculture. As our research shows that there is a high interest in organic, non-GMO, chemical free, sustainable produce, but the largest barriers are convenience and price.
+What makes FND different is that I am not treating local food as only a discovery, storefront, or one-farm software problem. The source material points to a harder gap: local food scales through intermediaries and institutions, but those channels require reliable availability, timing, documentation, and low-friction procurement. I am building around that coordination problem.
+
+The practical distinction is local-first interoperability. Farms can get immediate operational value from open, modular tools while retaining control of their own systems and data. That same data can later support a buyer-side coordination layer instead of being trapped inside one closed vendor platform. The goal is not to promise that local farms instantly gain the full economics of industrial supply. It is to make local supply more legible, lower avoidable waste and administrative friction, and create a more usable path into recurring procurement.

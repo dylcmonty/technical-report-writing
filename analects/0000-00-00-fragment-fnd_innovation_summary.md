@@ -2,4 +2,4 @@
 
 ## Fragment
 
-Fruitful Network Development is building a lightweight data framework that allows agricultural individuals to operate their logistical data, automated as needed and entirely integrable with a greater network. Our system strengthens local food networks by making supply data visible and actionable across farms, markets, and stores; while users remain autonomous, profitable, and better connected to the communities they serve.
+I am building a lightweight data framework that lets farms and local food organizations manage operational data in a way that can still participate in a larger network. The point is not to centralize control. The point is to make supply data visible and actionable while letting the people who create it keep ownership and operational independence.

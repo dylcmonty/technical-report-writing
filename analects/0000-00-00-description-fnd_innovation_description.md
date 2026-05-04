@@ -1,7 +1,18 @@
-# Technology Innovation Description
+---
+status: draft
+audience: [proposal, technical, investor]
+tags: [fnd, mycite, interoperability, agricultural-technology]
+related: [0000-00-00-description-mycite_framework, 0000-00-00-description-fnd, 2026-00-00-claim-interoperability_is_the_technical_necessity, 0000-00-00-claim-reference_based_coordination_is_the_architectural_shift]
+---
+
+# FND innovation description
+
+## Retrieval Gist
+
+How should the FND and Mycite technology be described in a bounded, proposal-ready way?
 
 ## Description
 
-Describe your technology innovation (2 paragraphs, no sales pitches!) - Please address the following: What does your technology do? How does it work? Why do you believe it is innovative? What have you built so far?
-The Mycite Framework is a universal language of information (ULI) that provides a common schema for representing any kind of data. At its core it uses the Mycelium Schema Standardization (MSS), an information‑theoretic scheme for encoding hierarchy, structure and semantic boundaries directly into a bitstream. Unlike software built on rigid record types, MSS makes the boundaries and addresses within a data stream self‑describing: a run of leading 1s establishes the address size; subsequent sections define file length and nested sub‑sections. Because data and metadata are unified in one representation, the same bitstream can be retro‑interpreted and recombined without fixed word sizes or bespoke parsers. This allows heterogeneous hardware and software platforms to "speak the same language" reducing the need for translation layers and allowing user interfaces to adapt dynamically to context. The result is a semantic substrate where meaning is coordinated through shared grammar rather than a global ledger, offering an alternative to centralized or blockchain‑based systems.
-Building on this core, we have developed Fruitful Network Development (FND): a suite of interactive "workware" tools that allow producers to manage planning, inventory and routing using the MSS schema. Each FND module works as a stand‑alone farm management tool yet natively exports MSS‑compatible data. This "local‑first, network‑later" design gives farmers immediate value while laying the foundation for network effects: when users opt to connect, their data can participate in a shared semantic event bus, where supplies, orders and certifications are published as append‑only feeds. Interfaces avoid lock‑in, and data stays under the farmer's control and only needs to be exposed via an API or a simple web page, while a buyer‑facing portal aggregates on demand. We have already prototyped the core MSS parser, implemented planning/inventory/routing modules for small growers, and built a proof‑of‑concept event bus and schema‑mapping engine. Early trials with local growers show that the tools can replace spreadsheets for crop planning and provide richer inventory visibility without forcing farmers into a centralized platform.
+I use Mycite as a datum-native semantic grammar for settings where information form cannot be fully pre-limited by one fixed schema. The technical goal is not to force every participant into the same internal software. It is to make structure, boundaries, semantic cues, mappings, and provenance explicit enough that independently evolving systems can coordinate without bespoke bilateral translation every time they exchange data.
+
+I apply that architecture through Fruitful Network Development in local agriculture. The practical design is local-first: farms and food organizations get immediate operational tools for websites, records, inventory, and planning, while the same data can be projected into a shared coordination layer when participants choose to expose it. That makes the innovation less "one more platform" and more a way to move from opaque file shipping toward interpretable, reference-based coordination across farms, buyers, and local-food organizations.

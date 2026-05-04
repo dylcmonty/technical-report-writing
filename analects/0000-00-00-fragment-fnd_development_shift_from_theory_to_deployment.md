@@ -2,7 +2,7 @@
 status: draft
 audience: [investor, proposal, general]
 tags: [fnd, learning, deployment, commercialization]
-related: [2026-05-02-approach-fnd_food_brokerage_startup_posture]
+related: [2026-05-02-fragment-fnd_startup_investor_posture]
 ---
 
 # Development shift from theory to deployment

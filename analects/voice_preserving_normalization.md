@@ -1,463 +1,220 @@
 # Voice-Preserving Analect Normalization
 
-## Purpose
+This guide defines how to normalize `analects/*.md` without flattening the author's voice. The repository contract lives in `README.md`. This document explains how to preserve language while still making the collection easier for retrieval and reuse.
 
-This guide defines how to assess, normalize, and split `analects/*.md` files without flattening the author's language. The `README.md` defines the repository contract. This document defines the preservation and normalization behavior that should govern edits.
+## Core Principle
 
-The collection exists to support retrieval of the author's actual perspective, tone, literary posture, reusable phrasing, claims, and facts. The safest normalization strategy is therefore structural rather than stylistic.
-
-## Core Rule
-
-Preserve the author's language unless there is a concrete operational reason to change it.
+Preserve the author's language unless there is a concrete retrieval reason to change it.
 
 Good normalization:
 
-- rename the file
-- strip redundant front matter
-- add retrieval scaffolding
-- split one mixed note into several clean retrieval units
-- fix broken Markdown when meaning does not change
+- rename a file to fit the contract
+- split one mixed note into several cleaner leaflets
+- remove redundant metadata
+- relink related notes
+- rewrite factual canon when a stronger current authority exists
+- fix broken Markdown or obvious copy errors when meaning does not change
 
 Bad normalization:
 
-- rewrite a paragraph into a cleaner summary
-- flatten metaphor into literal explanation
-- convert first person into generic business prose
-- remove repetition that may be rhetorically intentional
-- replace a poetic passage with a paraphrase
+- paraphrasing literary or reflective writing into flatter prose
+- converting first-person self-representation into generic third-person copy
+- keeping several audience postures in one file because they happen to be adjacent
+- preserving an outdated canon note after a stronger current source contradicts it
 
-## What Improves RAG Quality In This Repo
+## Governing Rules
 
-The current `analects/` tree suggests a few clear optimization rules:
-
-1. Keep one analect responsible for one retrieval job.
-2. Separate author-voice notes from source-heavy research dossiers.
-3. Treat literary and poetic passages as artifacts, not as raw material for summary.
-4. Make titles and slugs explicit enough that retrieval does not rely on tags alone.
-5. Use `Boundaries` to stop claims from being stretched beyond what the text supports.
-6. Keep dated recaps separate from timeless positions.
-7. When one note contains both reflection and reusable external phrasing, create a sibling `fragment` rather than rewriting the reflection.
-8. Only store source-only entries as `fact` when the source itself is an addressable fact worth retrieving.
-
-Repo-specific implications:
-
-- Legacy kinds such as `slug`, `literary`, `business`, `boundary`, `source`, `control`, and `company_approach` obscure retrieval intent.
-- Long question/answer operator dossiers often mix fact, interpretation, competitive analysis, and durable claim in one file.
-- The old starter template encouraged empty arrays, which creates metadata noise instead of useful structure.
+1. One leaflet should do one retrieval job.
+2. Canonical self/company notes must be first-person.
+3. Third-person remains acceptable for external research, recaps, and quoted source material.
+4. Roles, education, leadership, and URL identity surfaces should be atomic `fact` files.
+5. Use separate `fragment` files for audience-specific wording.
+6. Use `related` to connect concept, fact, and audience leaflets.
+7. Do not rely on a standard `Boundaries` section inside canonical notes. If a limitation matters, store it as its own related leaflet.
+8. Treat the YC founder profile and YC application as the current authority for founder/company canon when they conflict with older notes.
 
 ## Preservation Classes
 
-Assign a preservation class before editing.
-
 ### Class A: Frozen Literary / Poetic
 
-Use for literary, poetic, aphoristic, or rhythm-dependent writing.
+Use for writing whose line breaks, rhythm, or imagery are part of the meaning.
 
 Rules:
 
-- Do not rewrite the body.
-- Do not normalize line breaks.
-- Do not replace unusual wording.
-- Add retrieval scaffolding only before or after the text.
-- If chunking is required, split only at natural stanza, paragraph, scene, or section boundaries.
+- do not rewrite the body
+- do not normalize line breaks
+- add only light scaffolding around the text when needed
 
-Likely kind:
+Typical kinds:
 
 - `reflection`
-- `fragment` only when the passage is clearly meant for reuse as wording
+- `fragment` only when the text is intentionally reusable as wording
 
 ### Class B: Voice-Preserved Reflective / Philosophical
 
-Use for personal essays, worldview notes, and metaphor-heavy reflections.
+Use for personal essays, worldview notes, and reflective prose.
 
 Rules:
 
-- Preserve original sentences wherever possible.
-- Add headings around the text instead of rewriting it.
-- Put clarification in `Interpretive Note` or `Boundaries`, not inside the body.
+- preserve original sentences where possible
+- add routing context outside the body
+- split only when the note is clearly doing multiple jobs
 
-Likely kind:
+Typical kinds:
 
 - `reflection`
 - `claim`
 - `approach`
 
-### Class C: Reusable Prose / Application Fragment
+### Class C: Reusable Prose
 
-Use for bios, founder language, proposal wording, scholarship statements, and other reusable passages.
+Use for bios, application answers, pitch language, scholarship text, or audience-specific wording.
 
 Rules:
 
-- Preserve the reusable wording verbatim.
-- Add `Use When`.
-- Add `Do Not Use When` when the wording could be misapplied.
+- preserve reusable wording when it is already good
+- separate audience variants into sibling `fragment` files
+- keep each fragment narrowly scoped to one prompt or audience
 
-Likely kind:
+Typical kind:
 
 - `fragment`
 
 ### Class D: Technical / Factual / Procedural
 
-Use for facts, definitions, processes, and operational instructions.
+Use for identity facts, role history, definitions, processes, and operational instructions.
 
 Rules:
 
-- Light clarification is acceptable only when it improves precision.
-- Separate facts from claims.
-- Keep date context or limitations when material can drift over time.
+- prefer precise first-person factual wording for self/company canon
+- keep one role, one URL, one degree, or one leadership item per file
+- keep dates explicit when the fact can drift
 
-Likely kind:
+Typical kinds:
 
 - `fact`
 - `description`
 - `procedure`
 
-### Class E: Recap / Conversation Synthesis
+### Class E: Recap / Historical Synthesis
 
-Use for meetings, interviews, correspondence, or prior model sessions.
+Use for meetings, correspondence, interviews, or prior agent sessions.
 
 Rules:
 
-- Preserve event context.
-- Extract durable sibling notes only when they stand on their own.
-- Do not treat a recap as a timeless belief unless the author has clearly endorsed it elsewhere.
+- preserve event context
+- extract durable sibling notes only when they stand on their own
+- do not treat recap language as timeless canon unless it is separately affirmed
 
-Likely kind:
+Typical kind:
 
 - `recap`
 
-## Assessment Workflow
+## Canonical Authority
 
-### Step 1: Read Without Editing
+For current founder/company canon, prefer the YC founder profile and YC application over older repository wording when they disagree. This includes:
 
-Read the file once before touching it. Identify:
+- degree names and dates
+- work history dates, titles, and short descriptions
+- founder/company URLs
+- current founder/company role framing
+- current commitment and company-stage phrasing
 
-- the main job of the note
-- whether wording is part of the meaning
-- whether the file is one retrieval unit or several
-- whether the filename matches the function
-- whether old front matter is still present
+If an older contradictory file still matters historically, archive it or mark it as superseded. If it does not, rewrite or delete it.
 
-### Step 2: Assign Preservation Class
+## Role And URL Normalization
 
-Choose Class A, B, C, D, or E before editing. This does not need to become front matter unless the repo later adds a dedicated field.
+Use `fact` for atomic identity surfaces:
 
-### Step 3: Determine The Correct Kind
+- one role per file
+- one education item per file
+- one leadership item per file
+- one URL per file
 
-Map the file to the repository taxonomy:
+Dating rule:
 
-- `fact` - atomic addressable data
-- `claim` - argues something is true
-- `description` - defines or explains what something is
-- `approach` - describes posture, method, or strategy
-- `reflection` - preserves personal or literary thought
-- `fragment` - stores reusable wording
-- `procedure` - gives step-by-step instruction
-- `recap` - summarizes a specific event
+- ongoing item -> filename date is the start date
+- ended item -> filename date is the end date
 
-Legacy mapping shortcuts:
+Examples:
 
-- `literary`, `ponderence` -> usually `reflection`
-- `boundary` -> usually `claim` or `approach` with a `## Boundaries` section
-- `source` -> `fact` only if the note is just an addressable source locator
-- `control`, `technology`, `objective`, `scope`, `problem`, `measure`, `mechanism` -> choose by actual function, not by the old label
+- `2025-11-00-fact-fruitful_network_development_founder_ceo.md`
+- `2023-08-00-fact-university_of_akron_bs_applied_mathematics.md`
+- `0000-00-00-fact-dylan_montgomery_github.md`
 
-### Step 4: Evaluate The Filename
+## Audience Variants
 
-Expected form:
+When the same underlying concept needs different wording for different audiences:
 
-```text
-YYYY-MM-DD-<kind>-<slug>.md
-```
+1. keep or create one smaller canonical concept note
+2. create one `fragment` per audience or prompt
+3. connect them with `related`
 
-Check:
+Do not keep one large file that mixes startup, customer, academic, and resume language together.
 
-- Is the date accurate?
-- Is the kind valid?
-- Does the slug name the actual concept?
-- Are underscores used inside the slug?
-- Are hyphens only separating date, kind, and slug?
+## Workflow
 
-Prefer specific slugs over vague buckets.
+### 1. Read Before Editing
 
-### Step 5: Clean Front Matter
+Identify:
 
-Keep only fields that apply:
+- the note's real retrieval job
+- whether the wording itself is part of the value
+- whether the file is canonical self/company representation
+- whether a stronger current authority already exists
 
-```yaml
----
-status: draft
-audience: [proposal, technical]
-tags: [coordination, market_structure]
-related: [0000-00-00-claim-example]
----
-```
+### 2. Decide Whether The File Is Canonical
 
-Remove:
+Canonical self/company files should be rewritten into first-person when needed.
 
-- `title`
-- `date`
-- `slug_convention`
-- `name`
-- `classification`
-- `kind`
-- `source_path`
-- `source_type`
-- `source_ref`
-- `summary`
+Non-canonical files may remain third-person if they are:
 
-Do not keep empty arrays.
+- external research
+- dated recap
+- preserved historical wording
 
-### Step 6: Identify Protected Author Text
+### 3. Choose The Correct Kind
 
-Make the original wording easy to distinguish from retrieval scaffolding.
+- `fact` for atomic retrieval
+- `fragment` for reusable wording
+- `claim` for one assertion
+- `description` for one explanatory concept
+- `approach` for one method or operating decision
+- `reflection` for literary/personal writing
+- `procedure` for instructions
+- `recap` for dated event synthesis
 
-Useful section labels:
+### 4. Clean Metadata
 
-- `## Protected Author Text`
-- `## Text`
-- `## Claim`
-- `## Fragment`
-- `## Approach`
+Keep only useful standard fields:
 
-The main body section should contain the author's wording, not a paraphrased substitute.
+- `status`
+- `audience`
+- `tags`
+- `related`
+- `superseded_by` when needed
 
-### Step 7: Add Retrieval Scaffolding
+### 5. Split By Function
 
-Add only the scaffolding that improves routing:
+Split when one file combines:
 
-- `## Retrieval Gist`
-- `## Use When`
-- `## Do Not Use When`
-- `## Boundaries`
-- `## Interpretive Note`
+- factual canon and audience wording
+- dated recap and timeless claim
+- multiple audience postures
+- technical description and fundraising pitch
+- role bundles that hide several canonical items
 
-Rules:
+### 6. Preserve Voice Where It Matters
 
-- The gist should be plain-language and searchable.
-- The gist should not replace the body.
-- `Boundaries` are mandatory for claims that could be overextended.
-- `Interpretive Note` should clarify routing, not collapse ambiguity inside literary text.
+- literary bodies stay intact
+- reflective wording stays intact unless the canon itself is wrong
+- factual self/company canon may be rewritten for precision, current authority, and first-person consistency
 
-### Step 8: Decide Whether To Split
+## Default Outcome
 
-Split only when the file contains more than one retrieval job, such as:
+The preferred end state is a lossless collection of smaller leaflets that:
 
-- reflection plus reusable prose
-- fact plus philosophy
-- dated recap plus timeless claim
-- evidence dossier plus polished claim
-- technical description plus operating instruction
-
-Do not split merely because the file is long.
-
-### Step 9: Split By Semantic Function
-
-When splitting:
-
-1. Identify natural paragraph or section boundaries.
-2. Move intact passages into new files.
-3. Preserve wording exactly inside each new file.
-4. Add only the minimal scaffolding needed for each file.
-5. Link sibling files through `related`.
-
-If a reflection contains a sentence worth reusing in proposals, keep the reflection intact and create a sibling `fragment` with the exact wording.
-
-### Step 10: Check For Drift
-
-After editing, ask:
-
-- Did any sentence become narrower?
-- Did any uncertainty become certainty?
-- Did any personal stance become generic?
-- Did any metaphor get literalized?
-- Did the retrieval gist overclaim beyond the text?
-
-If yes, revert the prose change or move the clarification outside the protected body.
-
-## Recommended File Shapes
-
-### Voice-Preserved Claim
-
-```md
----
-status: draft
-audience: [general]
-tags: [tag1, tag2]
-related: [0000-00-00-kind-related_slug]
----
-
-# Title
-
-## Retrieval Gist
-
-One sentence describing the claim in searchable language.
-
-## Claim
-
-Original claim wording.
-
-## Protected Author Text
-
-Original prose remains verbatim.
-
-## Boundaries
-
-What the claim does not mean, or where it should not be applied.
-```
-
-### Literary Or Poetic Reflection
-
-```md
----
-status: stable
-tags: [tag1, tag2]
-related: [0000-00-00-kind-related_slug]
----
-
-# Title
-
-## Retrieval Gist
-
-Plain-language retrieval note.
-
-## Use When
-
-Describe the retrieval context.
-
-## Text
-
-Original literary text remains exactly as written.
-
-## Interpretive Note
-
-Optional. Add only if needed for routing.
-```
-
-### Reusable Fragment
-
-```md
----
-status: stable
-audience: [proposal, general]
-tags: [tag1, tag2]
-related: [0000-00-00-kind-related_slug]
----
-
-# Title
-
-## Retrieval Gist
-
-One sentence explaining what this prose is for.
-
-## Use When
-
-Describe where the wording should be reused.
-
-## Fragment
-
-Original reusable prose remains verbatim.
-
-## Do Not Use When
-
-Optional guardrail against misuse.
-```
-
-### Fact
-
-```md
----
-status: stable
-audience: [technical]
-tags: [tag1, tag2]
-related: [0000-00-00-kind-related_slug]
----
-
-# Title
-
-## Retrieval Gist
-
-One sentence stating the fact in searchable terms.
-
-## Fact
-
-Atomic fact.
-
-## Context
-
-Optional context that prevents misuse.
-
-## Boundaries
-
-Optional limitation or date-sensitivity note.
-```
-
-### Approach
-
-```md
----
-status: draft
-audience: [proposal, technical]
-tags: [tag1, tag2]
-related: [0000-00-00-kind-related_slug]
----
-
-# Title
-
-## Retrieval Gist
-
-One sentence explaining the operating posture.
-
-## Approach
-
-Original operating principle or method.
-
-## Use When
-
-Describe contexts where the approach should guide output.
-
-## Boundaries
-
-State where this approach should not be applied.
-```
-
-## Agent Rules
-
-Any agent editing `analects/` should follow these rules:
-
-1. Treat original prose as protected source material.
-2. Never paraphrase merely to make retrieval easier.
-3. Add retrieval scaffolding around the prose.
-4. Split files by retrieval function, not by length.
-5. Preserve literary and poetic language exactly.
-6. Normalize front matter before touching body text.
-7. Use valid kinds only.
-8. Do not keep empty front matter fields.
-9. Use `Boundaries` to prevent overextension.
-10. When uncertain, preserve wording and add an external note instead.
-
-## Recommended Agent Prompt
-
-```text
-Assess this analect file under a preservation-first rule.
-
-Do not rewrite author prose unless strictly necessary for broken syntax or explicit contradiction.
-Keep wording, cadence, metaphor, and tone intact.
-Literary or poetic sections are frozen and must not be paraphrased.
-
-Tasks:
-1. Identify the correct analect kind from: fact, claim, description, approach, reflection, fragment, procedure, recap.
-2. Determine whether the file should remain one analect or be split into multiple analects.
-3. Clean front matter to only: status, audience, tags, related. Omit empty fields.
-4. Propose a filename using YYYY-MM-DD-<kind>-<slug>.md.
-5. Add retrieval scaffolding only where helpful: Retrieval Gist, Use When, Boundaries, Do Not Use When, Interpretive Note.
-6. Preserve the original author text verbatim under Protected Author Text, Text, Claim, Fragment, or equivalent section.
-7. If chunking is needed, return each proposed new file separately and indicate which original passages moved into each one.
-8. Provide a brief drift check explaining how the original wording was preserved.
-```
-
-## Practical Conclusion
-
-The goal is not a cleaner version of the author's thought. The goal is a more retrievable version of the author's actual language.
-
-For analytical notes, structure and boundaries usually improve retrieval. For literary notes, the text itself is the artifact, and retrieval support must remain external to it.
+- preserve author voice
+- store current founder/company canon cleanly
+- expose audience variants as separate fragments
+- let retrieval compose meaning through `related` instead of through oversized mixed notes

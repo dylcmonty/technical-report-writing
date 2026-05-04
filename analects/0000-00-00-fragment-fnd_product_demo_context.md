@@ -2,7 +2,7 @@
 status: draft
 audience: [investor, proposal, general]
 tags: [fnd, demo, product, farmer_tools]
-related: [2026-05-02-approach-fnd_farmer_tools_as_supply_network_wedge, 2026-05-02-approach-fnd_food_brokerage_startup_posture]
+related: [2026-05-02-approach-fnd_farmer_tools_as_supply_network_wedge, 2026-05-02-fragment-fnd_startup_investor_posture]
 ---
 
 # Product demo context

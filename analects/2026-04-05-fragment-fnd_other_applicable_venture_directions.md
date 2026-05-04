@@ -2,7 +2,7 @@
 status: draft
 audience: [investor, general]
 tags: [fnd, venture_directions, strategy]
-related: [2026-05-02-approach-fnd_food_brokerage_startup_posture]
+related: [2026-05-02-fragment-fnd_startup_investor_posture]
 ---
 
 # Other applicable venture directions

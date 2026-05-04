@@ -2,7 +2,7 @@
 status: draft
 audience: [yc]
 tags: [yc_application, coding_agent, ai_tools, data_normalization]
-related: [2026-05-03-fact-fnd_technical_stack_and_live_surfaces, 2026-05-03-claim-cross_domain_data_interface_work_validates_fnd_technical_wedge]
+related: [2026-05-03-fact-fnd_technical_stack_and_live_surfaces, 2026-05-03-claim-cross_domain_data_interface_work_validates_fnd_technical_wedge, 0000-00-00-fragment-fnd_ai_assisted_development_workflow]
 ---
 
 # YC coding-agent session strategy

@@ -6,4 +6,4 @@ Please provide a non-technical description of your product/service idea and what
 
 ## Fragment
 
-Fruitful Network Development LLC develops software and data-schema infrastructure that enables small and mid-size agricultural operations to coordinate data, operations, and planning across decentralized networks. The company focuses on interoperable data models, farm-level operational tooling, and system architectures that improve visibility of supply, demand, and logistics while preserving local autonomy. Its work supports rural economic development, small farm viability, and scalable coordination without centralized ownership of data.
+I am building software and data infrastructure that helps farms and local food organizations run day-to-day operations and share usable supply information. The goal is to make local sourcing easier to coordinate without forcing farms into a closed platform. That means better visibility into supply, planning, and logistics while preserving local ownership and control.

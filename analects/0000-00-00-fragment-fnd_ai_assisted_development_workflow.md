@@ -1,13 +1,16 @@
 ---
 status: draft
-audience: [investor, technical, general]
+audience: [investor, technical, general, yc]
 tags: [fnd, ai_tools, software_development, agentic_workflow]
+related: [2026-05-03-fragment-yc_coding_agent_session_strategy, 2026-05-03-fact-fnd_technical_stack_and_live_surfaces]
 ---
 
 # AI-assisted development workflow
 
-I use AI coding tools as part of a real development workflow rather than only for isolated prompts.
+## Fragment
 
-ChatGPT, Codex-style coding agents, and Claude are useful for code generation, refactoring, review, documentation, and agentic development workflows. I still review, test, and commit the product code myself. My agentic repository reflects my interest in using AI tools for task deployment and repo management, while my writing repository helps organize and compound technical and business reasoning into reusable context.
+I use AI coding tools as part of a full engineering workflow rather than only for isolated prompts.
 
-I do these to allow myself to benefit from moments of hyper focus for a given minute topic. Either in writting or coding. This allows for a systematic recall and inclusion of compounded work that enables me to reep the rewards of speratic focus rather than letting those be fleating moments of lost energy.
+The useful pattern is not just code generation. I use AI to interpret ambiguous technical problems, audit repositories before implementation, externalize work into durable tasks and notes, implement bounded fixes, and verify behavior with tests, probes, and deployment checks.
+
+That matters because much of the work I do is not a clean greenfield build. It is messy operational systems work where the real leverage comes from turning ambiguity into explicit artifacts: tasks, contracts, reports, tests, and commits. I still review, test, and commit the product code myself.

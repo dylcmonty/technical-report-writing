@@ -2,7 +2,7 @@
 status: draft
 audience: [investor, proposal, competition]
 tags: [customer, market, buyers, farms, food_hubs]
-related: [0000-00-00-description-fnd, 2026-05-02-claim-fnd_buyer_side_procurement_is_clearer_customer_than_farmer_tools, 2026-05-02-approach-fnd_food_brokerage_startup_posture]
+related: [0000-00-00-description-fnd, 2026-05-02-claim-fnd_buyer_side_procurement_is_clearer_customer_than_farmer_tools, 2026-05-02-fragment-fnd_startup_investor_posture]
 ---
 
 # FND Target Customer

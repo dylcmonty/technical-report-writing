@@ -2,5 +2,4 @@
 
 ## Fact
 
-The catigoies that might be best describ FND's business/project area of focus could be:
-Software/Information Technology
+My current business focus is software and information technology applied to local farm operations and procurement.

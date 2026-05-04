@@ -2,8 +2,8 @@
 
 ## Fragment
 
-I am the founder of Fruitful Network Development, and we are currently building a decentralized Agro-ERP tool and data framework (the Mycelial Schema Standardization) aimed at improving local agricultural supply chains.
+I am building Fruitful Network Development as local farm operations and procurement software.
 
-We are preparing a USDA SBIR Phase I grant proposal for submission in early summer 2026 and are ramping up our development infrastructure to support upcoming feasibility demos. We are highly interested in leveraging the support for our data interoperability and processing needs.
+I am preparing a USDA SBIR Phase I proposal and continuing to build the development infrastructure needed for feasibility demos and early deployment. I am especially interested in support that helps with data interoperability, processing, and practical commercialization work.
 
-The company has an interest in aligning with any avenues for startup specific support programs or partnerships that could support our development phase as we build toward our 2027 pilot launches.
+I am also interested in startup-specific support programs or partnerships that can help move the company from early deployment into a stronger pilot and product phase.

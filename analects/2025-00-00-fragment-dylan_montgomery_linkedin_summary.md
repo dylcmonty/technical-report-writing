@@ -17,9 +17,9 @@ Use when drafting a LinkedIn summary, social profile bio, or public founder over
 
 ## Fragment
 
-I’m a Computer Engineering and Applied Mathematics student at the University of Akron, with a passion for building technology that empowers local communities and small organizations to thrive. I like to think my most unique/particular work skill is being able to see the potential in change and being able to bring that potential to life. Accomplishing that is always a challenge because the path is always uncertain, but the key to success is finding joy in the process. If you can do that, anything is possible.
+I completed a BA in Computer Engineering in January 2026 and I am continuing a BS in Applied Mathematics at the University of Akron. I like to think my most particular work skill is seeing potential in change and bringing that potential into a working system. The path is usually uncertain, but that is also part of the work I enjoy.
 
-I am the founder of Fruitful Network Development and the creator of the Mycelium Standardizes Schema. FND's focus is to understand the goals and constraints of the people it works with, and to identify pilot opportunities where there is real buyer demand and partner farms and where we can measure outcomes. We are addressing a core gap in local agriculture: what farms *could* produce versus what they actually grow and sell. That gap is not just inefficiency; it’s a constraint that keeps local agriculture undervalued and, in many cases, uneconomical to participate in. It also drives waste and forces reliance on long, refrigerated supply chains.
+I am Founder CEO of Fruitful Network Development. My current focus is local farm operations and procurement software: practical web and operations tooling now, and better supply visibility and coordination infrastructure over time. The core gap I am trying to address is the distance between what local farms could reliably supply and what buyers can actually see, trust, and procure. That gap is not just inefficiency. It is one of the reasons local agriculture remains harder to use than centralized distribution.
 
 If local farms can be coordinated as a cohesive regional resource, a meaningful share of demand can be met with less waste and lower logistics overhead, while improving the fairness and profitability of working in and with local agriculture.
 

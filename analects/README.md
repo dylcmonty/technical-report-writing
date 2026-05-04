@@ -1,13 +1,12 @@
 # Analects
 
-Normalized leaf notes live directly in this directory. An analect is a retrieval unit for author voice, durable claims, reusable prose, addressable facts, or event-bound recaps. Nested source collections stay under `raw/` until they are worth normalizing.
+Normalized leaf notes live directly in this directory. An analect is a small retrieval unit for author voice, durable claims, reusable phrasing, addressable facts, or event-bound recaps. Nested source collections stay under `raw/` until they are worth normalizing.
 
 ## Layout
 
-- `analects/*.md` - normalized single-file notes
-- `analects/raw/_template.snippet.md` - starter template for new entries
-- `analects/raw/technical/` and `analects/raw/corespond/` - nested source collections not yet normalized
-- `analects/archive/` - archival reference material
+- `analects/*.md` - normalized leaflets
+- `analects/raw/` - source material not yet distilled into leaflets
+- `analects/archive/` - superseded or historical material kept for reference
 
 ## File Contract
 
@@ -21,46 +20,33 @@ Date forms:
 
 | Date form | Meaning |
 |---|---|
-| `0000-00-00` | Timeless / undated |
-| `YYYY-00-00` | Year known, month and day unknown |
-| `YYYY-MM-DD` | Fully dated |
+| `0000-00-00` | timeless / undated |
+| `YYYY-00-00` | year known, month and day unknown |
+| `YYYY-MM-00` | year and month known, day unknown |
+| `YYYY-MM-DD` | fully dated |
 
 Rules:
 
 - `<kind>` and `<slug>` use underscores as internal separators.
 - Segments are separated by hyphens.
-- `<kind>` must be one of the eight values below.
+- Keep the outer filename contract stable even when the internal policy changes.
 
 ## Kind Taxonomy
 
 | Kind | What it holds |
 |---|---|
-| `fact` | Atomic addressable data: URLs, skills, role titles, dates, contacts |
-| `claim` | Assertive statement with reasoning |
-| `description` | Definitional or descriptive explanation |
-| `approach` | Operating stance, strategy, or posture |
-| `reflection` | Personal, literary, poetic, or metacognitive writing |
-| `fragment` | Reusable prose for applications, bios, proposals, statements |
-| `procedure` | How-to or step-by-step instructions |
-| `recap` | Summary or synthesis of a dated conversation, interview, or meeting |
-
-Disambiguation:
-
-- `claim` argues.
-- `description` defines or explains.
-- `approach` declares posture or method.
-- `fragment` stores wording worth reusing verbatim.
-- `recap` stays tied to a specific event.
-
-Legacy note:
-
-- `boundary` is not a kind. Put scope limits in a `## Boundaries` section inside a `claim`, `approach`, `fragment`, or `procedure`.
-- `literary` and `ponderence` should usually normalize to `reflection`.
-- `source` should normalize to `fact` only when the entry itself is an addressable fact. Source-heavy dossiers usually belong in `raw/` or should be distilled into `claim`, `description`, `fact`, or `recap`.
+| `fact` | atomic identity, role, education, leadership, URL, or other addressable data |
+| `fragment` | reusable wording for a specific audience or prompt |
+| `claim` | one bounded assertion |
+| `description` | one explanatory concept or definition |
+| `approach` | one method, stance, or operating decision |
+| `reflection` | literary, poetic, personal, or metacognitive writing |
+| `procedure` | instructions or workflow |
+| `recap` | dated conversation, meeting, or event summary |
 
 ## Front Matter
 
-Only four fields are standard. Omit any field that does not apply.
+Only these fields are standard, and only when they help retrieval:
 
 ```yaml
 ---
@@ -71,61 +57,57 @@ related: [0000-00-00-kind-other_slug]
 ---
 ```
 
-- `status` - trust level or editorial state
-- `audience` - intended retrieval context
-- `tags` - cross-cutting topics not already captured by kind or slug
-- `related` - filenames without extension
+Optional exception:
 
-Do not keep empty fields. Empty structure is worse than absent structure.
+- `superseded_by` when preserving the evolution between two dated notes is itself useful.
 
-Fields not included in normalized front matter: `date`, `name`, `title`, `slug_convention`, `classification`, `kind`, `source_path`, `source_type`, `source_ref`, `summary`.
+Do not keep empty fields.
 
-Exception:
-
-- `superseded_by` may be added when the evolution between two dated notes is itself meaningful to preserve.
-
-## Writing For Retrieval
-
-The best analects are written or normalized with these rules:
+## Normalization Rules
 
 1. One analect, one retrieval job.
-2. Keep the author text primary. Add retrieval scaffolding around it instead of paraphrasing it.
-3. Preserve literary and poetic text exactly. Add `Retrieval Gist`, `Use When`, or `Interpretive Note` outside the body.
-4. Put facts, claims, fragments, and recaps in separate files when they serve different retrieval purposes.
-5. Use specific slugs. Avoid vague buckets such as `background`, `notes`, or `thoughts`.
-6. Add `Boundaries` to any file that could otherwise be overextended by a model.
-7. When a reflection contains reusable wording, duplicate that passage into a sibling `fragment` instead of rewriting the reflection.
-8. Keep time-sensitive material explicitly dated.
-9. Use tags to improve routing, not to compensate for an imprecise kind or slug.
+2. Canonical self/company representation must be first-person.
+3. Third-person is still acceptable for external-person research, dated recaps, and quoted historical material.
+4. Audience variants belong in separate `fragment` files. Link them through `related`; do not mix startup, customer, academic, and other postures into one compound note.
+5. Roles, education, leadership, and founder/company positions should be one dated `fact` per item.
+6. Use the dating rule for role-like facts:
+   - ongoing item -> date from start
+   - ended item -> date from end
+7. URL identity surfaces stay one URL per file.
+8. For current founder/company canon, prefer the YC founder profile and YC application whenever they conflict with older notes.
+9. Literary and reflective bodies should remain unchanged except for non-substantive cleanup.
+10. `Boundaries` is not a default internal section. If a limitation matters, express it as its own related leaflet instead of embedding a standard constraint block.
 
-## Preservation-First Normalization
+## Retrieval Guidance
 
-Normalization in this repo is structural, not stylistic.
+- Keep author wording primary whenever the wording itself matters.
+- Split mixed files by semantic function instead of preserving adjacency inside one note.
+- Use `fact` for atomic retrieval, not for opinion or posture.
+- Use `fragment` when the main value is reusable wording.
+- Use `related` as the compound logic layer.
+- Remove duplicate canonical URLs or repeated role facts from unrelated notes when they do not add retrieval value.
 
-- Rename files to valid kinds.
-- Strip redundant front matter.
-- Split mixed-use notes into separate retrieval units.
-- Add retrieval scaffolding where it helps.
-- Preserve author wording unless there is a concrete reason to change it.
+## Authority Rule
 
-Detailed operating procedure:
+The YC founder profile and YC application are the current authority for:
+
+- current founder/company role framing
+- founder and company URLs
+- education dates and degree names
+- work history dates, titles, and short descriptions
+- current commitment framing when older canon conflicts
+
+Older contradictory notes can remain only when they still matter as dated history, recap, or preserved rhetoric. Otherwise, rewrite or archive them.
+
+## Preservation-First
+
+Normalization here is structural, not stylistic.
+
+- rename, split, relink, and trim metadata
+- preserve literary voice
+- rewrite factual canon when the current authority changed
+- avoid flattening reflective writing into summaries
+
+Detailed workflow:
 
 - [voice_preserving_normalization.md](/home/smohn/LCL/oeuvre/analects/voice_preserving_normalization.md)
-
-## Timeless Becomes Dated
-
-When a previously `0000-00-00` entry becomes time-bounded:
-
-- Default: rename the file to the date it was last accurate, then create a new entry for the current state.
-- Lossless option: add `superseded_by: <filename>` to the old entry only when the trajectory itself matters.
-
-Default to the simpler historical split unless the change history is important.
-
-## Migration State
-
-The collection is still mid-migration.
-
-- Legacy kinds such as `slug`, `literary`, `business`, `control`, `source`, `boundary`, `company_approach`, and others remain in the tree.
-- The `slug` files are still the primary cleanup queue.
-- Long source-derived question/answer notes often need to be split into a durable `claim`, `description`, or `fact` plus an event-bound `recap`.
-- Literary notes should be preserved, not rewritten, during cleanup.
